@@ -471,7 +471,7 @@
   -----------------------------------------*/
 
   .about {
-    background: var(--about-bg-color);
+    background: #000;
   }
 
   .about-working-hours {
@@ -659,3 +659,8 @@
       display: block;
     }
   }
+
+  .organiser-table td{
+    padding: 10px;
+  }
+

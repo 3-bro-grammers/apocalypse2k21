@@ -22,13 +22,16 @@
      <script src="js/aos.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+     
 </head>
 <body>
         <!-- MENU BAR -->
-        <nav class="navbar  fixed-top">
-            <div class="container">
+        <nav class="navbar">
+            <div class="container-fluid">
     
-                <a class="navbar-brand" href="index.html">Apocalypse</a>
+                <span class="navbar-brand"><a href="index.html" class="mr-2">
+                        <img style="height: 3rem" src="images/logo.png"></a> Register
+                </span>
     
             </div>
         </nav>
@@ -37,13 +40,22 @@
           <div class="container">
                <div class="row">
                     <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
-                        <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Event Name</h2>
+                        <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600" id="event_name_div">Event Name</h2>
 
-                        <p data-aos="fade-up" data-aos-delay="800">
+                        <p data-aos="fade-up" data-aos-delay="800" id="event_desc_div">
                              Event description Lorem ipsum dolor sit amet, consectetur adipiscing
                         </p>
                         <div  data-aos="fade-up" data-aos-delay="900" class="mb-4">
-                            <img class="img-fluid" src="images\hero-bg.jpg"   style="border:0;" />
+                            <img class="img-fluid"  id="event_img" src="images\hero-bg.jpg"   style="border:0;" />
+                         </div>
+
+                         <div  data-aos="fade-up" data-aos-delay="500" class="mb-4">
+                            <h4>Organisers:</h4>
+                            <table  class="ml-3 organiser-table">
+                                <tbody id = "organiser_list">
+                                    
+                                </tbody>
+                            </table>
                          </div>
 
                         
@@ -90,6 +102,8 @@
              </div>
         </div>
    </footer>
+
+   <script src="js/register.js"></script>
 
 </body>
 </html>
