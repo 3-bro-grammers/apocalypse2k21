@@ -14,5 +14,18 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
 })
 
 
+function change_member_cnt(){
+    
+    for(i = 1 ; i<=2; i++){
+        document.getElementById(`member${i}`).classList.remove('d-flex');
+        document.getElementById(`member${i}`).classList.add('d-none');
+    }
+
+    for(i = 1 ; i<=memb_cnt_range.value; i++){
+        document.getElementById(`member${i}`).classList.add('d-flex');
+        document.getElementById(`member${i}`).classList.remove('d-none');
+    }
+}
+
 
 
