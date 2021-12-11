@@ -8,7 +8,7 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
                 <div class="card-body">
                     <h5 class="card-title">${tech_event}</h5>
                     <p class="card-text mb-5">${event_data[event_categ][tech_event]["short_desc"]}</p>
-                    <button onclick="register_clk('${tech_event}','${event_categ}')" class="btn btn-danger" style="position: absolute; bottom: 20px; right: 50%; transform: translateX(50%);">REGISTER</button>
+                    <button onclick="register_clk('${tech_event}','${event_categ}')" class="form-control" id="submit-button">REGISTER</button>
                 </div>
             </div>`
         }
