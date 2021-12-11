@@ -611,7 +611,21 @@
     color: var(--primary-color);
   }
 
+  #events_tab{
+    background: var(--dark-color);
+    font-weight: 900;
+  }
 
+  #events_tab .nav-link{
+      color : var(--about-bg-color);  
+    }
+  #events_tab .active {
+    color: var(--dark-color);
+  }
+
+  .tab-pane {
+    background-color: var(--dark-color);
+  }
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
