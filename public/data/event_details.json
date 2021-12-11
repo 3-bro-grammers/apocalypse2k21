@@ -1,0 +1,72 @@
+{
+    "tech_events":{
+        "Tech Event1":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "Tech Event2":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event2"
+
+        },
+        "Tech Event3":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        }
+    },
+    "non_tech_events":{
+        "Non-Tech Event1":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event3"
+
+        },
+        "Non-Tech Event2":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "Non-Tech Event3":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event2"
+
+        }
+
+    },
+    "workshops":{
+        "Workshop1":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event3"
+
+        },
+        "Workshop2":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event2"
+
+        },
+        "Workshop3":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event2"
+
+        }
+    }
+}
