@@ -1,6 +1,8 @@
 var query_par = new URLSearchParams(window.location.search);
 var event_name = query_par.get("event_name");
-document.getElementById(event_name).classList.add("active");
+console.log(1)
+
+
 fetch("data/event_details.json").then((res) => res.json()).then((event_data) => {
 
     for (event_categ in event_data) {
@@ -18,8 +20,11 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
 
         document.getElementById(event_categ+"_cont_div").innerHTML = categ_inner;
     }
-})
+
+    document.getElementById(event_name).click();
+    
+});
 
 function register_clk(event_name, event_categ){
-    location.href = `register.html?event_name=${event_name}&categ=${event_categ}`
+    location.href = `register.html?event_name=${event_name}&categ=${event_categ}`;
 }
