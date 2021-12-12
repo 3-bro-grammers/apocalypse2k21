@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-     <title>Apocalypse</title>
+    <title>Apocalypse</title>
 
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/aos.css">
-
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="js/index.js"></script>
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/custom.css">
 </head>
+
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
     <!-- MENU BAR -->
@@ -28,8 +30,8 @@
                 <img style="height: 3rem" src="images/logo.png">
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -67,253 +69,274 @@
     </nav>
 
 
-     <!-- HERO -->
-     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
 
-            <div class="bg-overlay"></div>
+        <div class="bg-overlay"></div>
 
-               <div class="container">
-                    <div class="row">
+        <div class="container">
+            <div class="row">
 
-                         <div class="col-lg-8 col-md-10 mx-auto col-12">
-                              <div class="hero-text mt-5 text-center">
+                <div class="col-lg-8 col-md-10 mx-auto col-12">
+                    <div class="hero-text mt-5 text-center">
+                        <img src="images/logo.png" class="img-fluid" width="20%">
+                        <h6 data-aos="fade-up" data-aos-delay="300">EEA Presents</h6>
 
-                                    <h6 data-aos="fade-up" data-aos-delay="300">EEA Presents</h6>
-
-                                    <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Apocalypse</h1>
-
-                                    <a href="#feature" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">Get started</a>
-
-                                    <a href="#about" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">learn more</a>
-                                   
-                              </div>
-                         </div>
-
-                    </div>
-               </div>
-     </section>
-     
-     <!-- ABOUT -->
-     <section class="about section" id="about">
-               <div class="container">
-                    <div class="row align-items-center">
-
-                            <div class="mt-lg-5 mb-lg-0 mb-4 col-lg-5 col-md-10 mx-auto col-12">
-                                <h2 class="mb-4 text-white" data-aos="fade-up" data-aos-delay="300">Hello, we are Elexians</h2>
-                                <p data-aos="fade-up" style="color: #f9f9f9" data-aos-delay="500">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                </p>
-
+                        <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Apocalypse</h1>
+                        <div class="container">
+                            <p id="headline">Event Starts in</p>
+                            <div id="countdown" class="column">
+                                <ul>
+                                    <li><span id="days"></span>days</li>
+                                    <li><span id="hours"></span>Hours</li>
+                                    <li><span id="minutes"></span>Minutes</li>
+                                    <li><span id="seconds"></span>Seconds</li>
+                                </ul>
                             </div>
-
-                            
-
-                            <div  class="mt-lg-5 mb-lg-5 mb-4 col-lg-5 col-md-10 mx-auto col-12" data-aos="fade-up" data-aos-delay="800">
-                                <div class="team-thumb">
-                                    <video src="images/logo.mp4" autoplay muted loop class="img-fluid" alt="promo">
-                                </div>
-                            </div>
-
+                        </div>
                     </div>
-               </div>
-     </section>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="mt-lg-5 mb-lg-0 mb-4 col-lg-5 col-md-10 mx-auto col-12">
+                    <h2 class="mb-4 text-white" data-aos="fade-up" data-aos-delay="300">Hello, we are Elexians</h2>
+                    <p data-aos="fade-up" style="color: #f9f9f9" data-aos-delay="500">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting,
+                        remaining essentially unchanged.
+                    </p>
+
+                </div>
 
 
-     <!-- CLASS -->
-     <section class="class section" id="class" style="background-color: var(--dark-color);">
-               <div class="container">
-                    <div class="row">
 
-                            <div class="col-lg-12 col-12 text-center mb-5">
-                                <h6 data-aos="fade-up">Get A Perfect Body</h6>
-
-                                <h2 class="text-white" data-aos="fade-up" data-aos-delay="200">Our Events</h2>
-                             </div>
-
-                            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400" onclick="location.href='events.html'">
-                                <div class="class-thumb">
-                                    <img src="images/events/event.jpg" class="img-fluid" alt="Class">
-
-                                    <div class="class-info">
-                                        <h3 class="mb-1">Tech Events</h3>
-
-                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="500" onclick="events.href='register.html'">
-                                <div class="class-thumb">
-                                    <img src="images/events/event2.jpg" class="img-fluid" alt="Class">
-
-                                    <div class="class-info">
-                                        <h3 class="mb-1">Workshops</h3>
-
-                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600" onclick="location.href='events.html'">
-                                <div class="class-thumb">
-                                    <img src="images/events/event3.jpg" class="img-fluid" alt="Class">
-
-                                    <div class="class-info">
-                                        <h3 class="mb-1">Non-Tech Events</h3>
-
-                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                    </div>
-                                </div>
-                            </div>
-
+                <div class="mt-lg-5 mb-lg-5 mb-4 col-lg-5 col-md-10 mx-auto col-12" data-aos="fade-up"
+                    data-aos-delay="800">
+                    <div class="team-thumb">
+                        <video src="images/logo.mp4" autoplay muted loop class="img-fluid" alt="promo">
                     </div>
-               </div>
-     </section>
-     <!-- SCHEDULE -->
-     <section class="schedule section" id="schedule">
-               <div class="container">
-                    <div class="row">
+                </div>
 
-                            <div class="col-lg-12 col-12 text-center">
-                                <h6 data-aos="fade-up">our weekly GYM schedules</h6>
+            </div>
+        </div>
+    </section>
 
-                                <h2 class="text-white" data-aos="fade-up" data-aos-delay="200">Workout Timetable</h2>
-                             </div>
 
-                             <div class="col-lg-12 py-5 col-md-12 col-12">
-                                 <table class="table table-bordered table-responsive schedule-table" data-aos="fade-up" data-aos-delay="300">
+    <!-- CLASS -->
+    <section class="class section" id="class" style="background-color: var(--dark-color);">
+        <div class="container">
+            <div class="row">
 
-                                     <thead class="thead-light">
-                                         <th><i class="fa fa-calendar"></i></th>
-                                         <th>Mon</th>
-                                         <th>Tue</th>
-                                         <th>Wed</th>
-                                         <th>Thu</th>
-                                         <th>Fri</th>
-                                         <th>Sat</th>
-                                     </thead>
+                <div class="col-lg-12 col-12 text-center mb-5">
+                    <h6 data-aos="fade-up">Get Trained By </h6>
 
-                                     <tbody>
-                                         <tr>
-                                            <td><small>7:00 am</small></td>
-                                            <td>
-                                                <strong>Cardio</strong>
-                                                <span>7:00 am - 9:00 am</span>
-                                            </td>
-                                            <td>
-                                                <strong>Power Fitness</strong>
-                                                <span>7:00 am - 9:00 am</span>
-                                            </td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>
-                                                <strong>Yoga Section</strong>
-                                                <span>7:00 am - 9:00 am</span>
-                                            </td>
-                                         </tr>
+                    <h2 class="text-white" data-aos="fade-up" data-aos-delay="200">Our Events</h2>
+                </div>
 
-                                         <tr>
-                                            <td><small>9:00 am</small></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>
-                                                <strong>Boxing</strong>
-                                                <span>8:00 am - 9:00 am</span>
-                                            </td>
-                                            <td>
-                                                <strong>Areobic</strong>
-                                                <span>8:00 am - 9:00 am</span>
-                                            </td>
-                                            <td></td>
-                                            <td>
-                                                <strong>Cardio</strong>
-                                                <span>8:00 am - 9:00 am</span>
-                                            </td>
-                                         </tr>
+                <div class="col-lg-4 col-md-6 col-12 cards" data-aos="fade-up" data-aos-delay="400"
+                    onclick="location.href='events.html'">
+                    <div class="class-thumb">
+                        <img src="images/events/event.jpg" class="img-fluid" alt="Class">
 
-                                         <tr>
-                                            <td><small>11:00 am</small></td>
-                                            <td></td>
-                                            <td>
-                                                <strong>Boxing</strong>
-                                                <span>11:00 am - 2:00 pm</span>
-                                            </td>
-                                            <td>
-                                                <strong>Areobic</strong>
-                                                <span>11:30 am - 3:30 pm</span>
-                                            </td>
-                                            <td></td>
-                                            <td>
-                                                <strong>Body work</strong>
-                                                <span>11:50 am - 5:20 pm</span>
-                                            </td>
-                                         </tr>
+                        <div class="class-info">
+                            <h3 class="mb-1">Tech Events</h3>
 
-                                         <tr>
-                                            <td><small>2:00 pm</small></td>
-                                            <td>
-                                                <strong>Boxing</strong>
-                                                <span>2:00 pm - 4:00 pm</span>
-                                            </td>
-                                            <td>
-                                                <strong>Power lifting</strong>
-                                                <span>3:00 pm - 6:00 pm</span>
-                                            </td>
-                                            <td></td>
-                                            <td>
-                                                <strong>Cardio</strong>
-                                                <span>6:00 pm - 9:00 pm</span>
-                                            </td>
-                                            <td></td>
-                                            <td>
-                                                <strong>Crossfit</strong>
-                                                <span>5:00 pm - 7:00 pm</span>
-                                            </td>
-                                         </tr>
-                                     </tbody>
-                                 </table>
-                             </div>
-
+                            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                <span class="float-right icon-right"><i class="fa fa-chevron-circle-right"
+                                        aria-hidden="true"></i></span>
+                            </p>
+                        </div>
                     </div>
-               </div>
-     </section>
+                </div>
 
-     <!-- FOOTER -->
-     <footer id="contact" class="site-footer">
-          <div class="container">
-               <div class="row">
-                    <div class="ml-auto col-lg-4 col-md-5">
-                        <p><b>Event Organisers</b></p>
-                        <p>Thirunavukkarsu</p>
-                        <p><i class="fa fa-phone mr-1"></i>Phone no.</p>
-                        <p>Sai Jayashree</p>
-                        <p><i class="fa fa-phone mr-1"></i>Phone no.</p>
+                <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12 cards" data-aos="fade-up" data-aos-delay="500"
+                    onclick="location.href='events.html'">
+                    <div class="class-thumb">
+                        <img src="images/events/event2.jpg" class="img-fluid" alt="Class">
+
+                        <div class="class-info">
+                            <h3 class="mb-1">Workshops</h3>
+
+                            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                <span class="float-right icon-right"><i class="fa fa-chevron-circle-right"
+                                        aria-hidden="true"></i></span>
+                            </p>
+                        </div>
                     </div>
-                    <div class ="mx-auto col-lg-4 col-md-5">
-                        <img src="images/eea-logo.png" class="img-fluid" />
-                        <br />
-                        <p class="text-center">
-                            <i class="fa fa-envelope-o"></i>
-                            <a href="mailto:apocalypse2k21@gmail.com">apocalypse2k21@gmail.com</a>
-                        </p>
+                </div>
+
+                <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12 cards" data-aos="fade-up" data-aos-delay="600"
+                    onclick="location.href='events.html'">
+                    <div class="class-thumb">
+                        <img src="images/events/event3.jpg" class="img-fluid" alt="Class">
+
+                        <div class="class-info">
+                            <h3 class="mb-1">Non-Tech Events</h3>
+
+                            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                <span class="float-right icon-right"><i class="fa fa-chevron-circle-right"
+                                        aria-hidden="true"></i></span>
+                            </p>
+                        </div>
                     </div>
-               </div>
-          </div>
-          <p class="copyright-text text-center mt-2">Copyright &copy; 2021 Apocalypse.</p>
-     </footer>
+                </div>
 
-    
-    
+            </div>
+        </div>
+    </section>
+    <!-- SCHEDULE -->
+    <section class="schedule section" id="schedule">
+        <div class="container">
+            <div class="row">
 
-     <!-- SCRIPTS -->
-     <script src="js/jquery.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/aos.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
+                <div class="col-lg-12 col-12 text-center">
+                    <h6 data-aos="fade-up">our weekly GYM schedules</h6>
 
+                    <h2 class="text-white" data-aos="fade-up" data-aos-delay="200">Workout Timetable</h2>
+                </div>
+
+                <div class="col-lg-12 py-5 col-md-12 col-12">
+                    <table class="table table-bordered table-responsive schedule-table" data-aos="fade-up"
+                        data-aos-delay="300">
+
+                        <thead class="thead-light">
+                            <th><i class="fa fa-calendar"></i></th>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><small>7:00 am</small></td>
+                                <td>
+                                    <strong>Cardio</strong>
+                                    <span>7:00 am - 9:00 am</span>
+                                </td>
+                                <td>
+                                    <strong>Power Fitness</strong>
+                                    <span>7:00 am - 9:00 am</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <strong>Yoga Section</strong>
+                                    <span>7:00 am - 9:00 am</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><small>9:00 am</small></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <strong>Boxing</strong>
+                                    <span>8:00 am - 9:00 am</span>
+                                </td>
+                                <td>
+                                    <strong>Areobic</strong>
+                                    <span>8:00 am - 9:00 am</span>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <strong>Cardio</strong>
+                                    <span>8:00 am - 9:00 am</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><small>11:00 am</small></td>
+                                <td></td>
+                                <td>
+                                    <strong>Boxing</strong>
+                                    <span>11:00 am - 2:00 pm</span>
+                                </td>
+                                <td>
+                                    <strong>Areobic</strong>
+                                    <span>11:30 am - 3:30 pm</span>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <strong>Body work</strong>
+                                    <span>11:50 am - 5:20 pm</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><small>2:00 pm</small></td>
+                                <td>
+                                    <strong>Boxing</strong>
+                                    <span>2:00 pm - 4:00 pm</span>
+                                </td>
+                                <td>
+                                    <strong>Power lifting</strong>
+                                    <span>3:00 pm - 6:00 pm</span>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <strong>Cardio</strong>
+                                    <span>6:00 pm - 9:00 pm</span>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <strong>Crossfit</strong>
+                                    <span>5:00 pm - 7:00 pm</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="ml-auto col-lg-4 col-md-5">
+                    <p><b>Event Organisers</b></p>
+                    <p>Thirunavukkarsu</p>
+                    <p><i class="fa fa-phone mr-1"></i>Phone no.</p>
+                    <p>Sai Jayashree</p>
+                    <p><i class="fa fa-phone mr-1"></i>Phone no.</p>
+                </div>
+                <div class="mx-auto col-lg-4 col-md-5">
+                    <img src="images/eea-logo.png" class="img-fluid" />
+                    <br />
+                    <p class="text-center">
+                        <i class="fa fa-envelope-o"></i>
+                        <a href="mailto:apocalypse2k21@gmail.com">apocalypse2k21@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="copyright-text text-center mt-2">Copyright &copy; 2021 Apocalypse.</p>
+    </footer>
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
 </body>
+
 </html>
