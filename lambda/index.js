@@ -58,7 +58,7 @@ exports.handler = async (event) => {
         from: 'apocalypse2k21@gmail.com',
         to: data["email"],
         subject: 'Apocalypse Event Registration',
-        html: `
+        html: (`
         <table style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#ffffff;">
         <tr>
           <td align="center" style="padding:0;">
@@ -82,22 +82,22 @@ exports.handler = async (event) => {
                                 <td style="padding: 1rem;">${data["team"][0][1]}</td>
                             </tr>
 
-    `+data["team"][1]?`
+    `)+(data["team"][1][0]?`
                             <tr>
                                 <td style="padding: 1rem;">${data["team"][1][0]}</td>
                                 <td style="padding: 1rem;">${data["team"][1][1]}</td>
                             </tr>
-    `:''
-    +data["team"][2]?`
+    `:'')
+    +(data["team"][2][0]?`
                             <tr>
                                 <td style="padding: 1rem;">${data["team"][2][0]}</td>
                                 <td style="padding: 1rem;">${data["team"][2][1]}</td>
                             </tr>
-    `:''
-    +`
+    `:'')
+    +(`
 
                             <tr>
-                                <td colspan="2" style="padding: 1rem;">${data["dept"]}</td>
+                                <td align="center" colspan="2" style="padding: 1rem;">${data["dept"]}</td>
                             </tr>
 
                         </table>
@@ -133,6 +133,7 @@ exports.handler = async (event) => {
         </tr>
       </table>
         `
+    )
     };
     
     await transporter.sendMail(mailOptions);
