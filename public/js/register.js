@@ -71,7 +71,7 @@ function register_clk() {
 
         team_arr.push([  document.getElementById(`memb${i}_name_txt`).value, document.getElementById(`memb${i}_reg_txt`).value]);
     }
-
+    loader.style.display="inline-block";
     fetch("https://3pwqbbrx6f.execute-api.us-east-2.amazonaws.com/default/apocalypse-register", {
         method: "POST",
         body: JSON.stringify({
@@ -84,6 +84,7 @@ function register_clk() {
             email: email_txt.value
         })
     }).then(res=>res.text()).then(data =>{
+        loader.style.display="none";
         if(data == "DONE")
         {
             Swal.fire(
