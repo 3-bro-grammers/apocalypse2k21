@@ -94,7 +94,11 @@
 
                         <label>Team Members</label>
 
-                        <input type="range" id="memb_cnt_range" class="form-control-range" id="formControlRange" min="0" max="2" value="1" onchange="change_member_cnt();">
+                        <div class="btn-group ml-3" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-light" onclick="change_member_cnt(false);">-</button>
+                            <span type="button" id="memb_cnt_span" class="btn btn-light" style="background: #fff; cursor: default;">1</span>
+                            <button type="button" class="btn btn-light" onclick="change_member_cnt(true);">+</button>
+                          </div>
 
                         <div id="member1" class="d-flex justify-content-around">
                             <input type="text" class="form-control col-6" name="cf-name" placeholder="Team Member 1"
