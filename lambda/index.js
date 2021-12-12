@@ -26,6 +26,14 @@ admin.initializeApp({
 
 var db = admin.database();
 
+var transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: 'apocalypse2k21@gmail.com',
+        pass: process.env.GOOGLE_APP_PASS
+    }
+});
+
 exports.handler = async (event) => {
 
     /*
@@ -45,6 +53,15 @@ exports.handler = async (event) => {
         phone: data["phone"],
         email: data["email"]
     })
+
+    var mailOptions = {
+        from: 'apocalypse2k21@gmail.com',
+        to: data["email"],
+        subject: 'Apocalypse Event Registration',
+        html: ``
+    };
+    
+    await transporter.sendMail(mailOptions);
 
 
     return ({

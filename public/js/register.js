@@ -18,7 +18,7 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
 
 function change_member_cnt(inc) {
 
-    if((memb_cnt==0 && !inc) || (memb_cnt==2 && inc) ){
+    if ((memb_cnt == 0 && !inc) || (memb_cnt == 2 && inc)) {
         return;
     }
     memb_cnt = inc ? memb_cnt + 1 : memb_cnt - 1;
@@ -34,6 +34,30 @@ function change_member_cnt(inc) {
     }
 
     memb_cnt_span.innerHTML = memb_cnt;
+}
+
+function register_clk() {
+
+    var team_arr = [];
+
+    team_arr.push([leader_name_txt.value, leader_reg_txt.value]);
+
+    for(i = 1; i<=memb_cnt; i++){
+
+        team_arr.push([  document.getElementById(`memb${i}_name_txt`).value, document.getElementById(`memb${i}_reg_txt`).value]);
+    }
+
+    fetch("https://3pwqbbrx6f.execute-api.us-east-2.amazonaws.com/default/apocalypse-register", {
+        method: "POST",
+        body: JSON.stringify({
+            event_categ: event_categ,
+            event_name: event_name,
+            team: team_arr,
+            dept: dept_select.value,
+            phone: phone_txt.value,
+            email: email_txt.value
+        })
+    })
 }
 
 

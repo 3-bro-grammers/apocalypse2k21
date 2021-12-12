@@ -65,21 +65,20 @@
                 <div class="ml-auto col-lg-5 col-md-6 col-12">
                     <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200"> Register Now</h2>
 
-                    <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400"
-                        role="form">
+                    <div class="contact-form webform" data-aos="fade-up" data-aos-delay="400">
                         <div class="d-flex justify-content-around">
-                            <input type="text" class="form-control col-6" name="cf-name" placeholder="Team Leader"
+                            <input type="text" class="form-control col-6" id="leader_name_txt" placeholder="Team Leader"
                                 autocomplete="name">
-                            <input type="number" class="form-control col-6" name="cf-number" placeholder="Register No.">
+                            <input type="number" class="form-control col-6" id="leader_reg_txt" placeholder="Register No.">
                         </div>
 
-                        <select id="dept" class="form-control" >
+                        <select id="dept_select" class="form-control" >
                             <option selected disabled>Department</option>
-                            <option value="Electronics and communication">Electronics and communication</option>
+                            <option value="Electronics and Communication">Electronics and Communication Engineering</option>
                             <option value="Aeronautical Engineering">Aeronautical Engineering</option>
                             <option value="Automobile Engineering">Automobile Engineering</option>
-                            <option value="Computer science">Computer science</option>
-                            <option value="Electronics and instrumentation">Electronics and instrumentation</option>
+                            <option value="Computer science">Computer Science</option>
+                            <option value="Electronics and instrumentation">Electronics and Instrumentation</option>
                             <option value="Information Technology">Information Technology</option>
                             <option value="Mechanical Engineering">Mechanical Engineering</option>
                             <option value="Production Technology">Production Technology</option>
@@ -87,10 +86,10 @@
                             
                         </select>
 
-                        <input type="email" class="form-control" name="cf-email" placeholder="Email"
+                        <input type="email" class="form-control" id="email_txt" placeholder="Email"
                             autocomplete="email">
 
-                        <input type="tel" class="form-control" name="cf-number" placeholder="Phone">
+                        <input type="tel" class="form-control" id="phone_txt" placeholder="Phone">
 
                         <label>Team Members</label>
 
@@ -101,21 +100,21 @@
                           </div>
 
                         <div id="member1" class="d-flex justify-content-around">
-                            <input type="text" class="form-control col-6" name="cf-name" placeholder="Team Member 1"
+                            <input type="text" class="form-control col-6" id="memb1_name_txt" placeholder="Team Member 1"
                                 autocomplete="name">
-                            <input type="number" class="form-control col-6" name="cf-number" placeholder="Register No.">
+                            <input type="number" class="form-control col-6" id="memb1_reg_txt" placeholder="Register No.">
                         </div>
 
                         <div id="member2" class="d-none justify-content-around">
-                            <input type="text" class="form-control col-6" name="cf-name" placeholder="Team Member 2"
+                            <input type="text" class="form-control col-6" id="memb2_name_txt" placeholder="Team Member 2"
                                 autocomplete="name">
-                            <input type="number" class="form-control col-6" name="cf-number" placeholder="Register No.">
+                            <input type="number" class="form-control col-6"  id="memb2_reg_txt" placeholder="Register No.">
                         </div>
 
 
 
-                        <button type="submit" class="form-control" id="submit-button" name="submit">Register</button>
-                    </form>
+                        <button class="form-control" id="submit-button" onclick="register_clk()">Register</button>
+                    </div>
                 </div>
             </div>
         </div>
