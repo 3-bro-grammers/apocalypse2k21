@@ -641,7 +641,6 @@ button#submit-button:hover {
 
 #countdown li {
   display: inline-block;
-  font-size: 1.5em;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
@@ -649,7 +648,7 @@ button#submit-button:hover {
 
 #countdown li span {
   display: block;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 #countdown>ul {
@@ -664,6 +663,10 @@ button#submit-button:hover {
   transform: scale(1.5);
 }
 
+#title{
+  font-size: 2rem;
+  letter-spacing: .5rem;
+}
 /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/

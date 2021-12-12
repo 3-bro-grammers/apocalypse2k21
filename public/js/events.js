@@ -1,3 +1,6 @@
+var query_par = new URLSearchParams(window.location.search);
+var event_name = query_par.get("event_name");
+document.getElementById(event_name).classList.add("active");
 fetch("data/event_details.json").then((res) => res.json()).then((event_data) => {
 
     for (event_categ in event_data) {
