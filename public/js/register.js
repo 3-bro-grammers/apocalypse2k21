@@ -2,8 +2,8 @@ var query_par = new URLSearchParams(window.location.search);
 var event_name = query_par.get("event_name");
 var event_categ = query_par.get("categ");
 
-var memb_cnt = 1;
-
+var memb_cnt = 0;
+var required = ["leader_name_txt","leader_reg_txt","email_txt","phone_txt"];
 var img_name;
 
 fetch("data/event_details.json").then((res) => res.json()).then((event_data) => {
@@ -42,7 +42,29 @@ function change_member_cnt(inc) {
 function register_clk() {
 
     var team_arr = [];
-
+    var valid = true;
+    required.forEach((e,i)=>{
+        if(! document.getElementById(e).value)
+        {
+                valid = false;
+                return ;
+        }
+    });
+    for(i = 1; i<=memb_cnt;i++)
+    {
+        if(!document.getElementById(`memb${i}_name_txt`).value || !document.getElementById(`memb${i}_reg_txt`).value)
+        {
+            valid = false;
+            break;
+        }    
+    }
+    if(!valid || dept_select.value=="default")
+    {
+        error.style.display="block";
+        return ;
+    }
+        
+    error.style.display="none";
     team_arr.push([leader_name_txt.value, leader_reg_txt.value]);
 
     for(i = 1; i<=memb_cnt; i++){
@@ -61,7 +83,24 @@ function register_clk() {
             phone: phone_txt.value,
             email: email_txt.value
         })
+    }).then(res=>res.text()).then(data =>{
+        if(data == "DONE")
+        {
+            Swal.fire(
+                'Success',
+                'Registration Successful',
+                'success'
+              ).then(()=>location.href="/");
+        }
+        else {
+            Swal.fire(
+                'Oops!',
+                'Please Try again later',
+                'error'
+              );
+        }
     })
+
 }
 
 

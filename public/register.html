@@ -23,6 +23,7 @@
     <script src="js/aos.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
 
@@ -72,8 +73,8 @@
                             <input type="number" class="form-control col-6" id="leader_reg_txt" placeholder="Register No.">
                         </div>
 
-                        <select id="dept_select" class="form-control" >
-                            <option selected disabled>Department</option>
+                        <select id="dept_select" class="form-control" style="height: 3.5rem;">
+                            <option selected disabled value="default">Department</option>
                             <option value="Electronics and Communication">Electronics and Communication Engineering</option>
                             <option value="Aeronautical Engineering">Aeronautical Engineering</option>
                             <option value="Automobile Engineering">Automobile Engineering</option>
@@ -95,11 +96,11 @@
 
                         <div class="btn-group ml-3" role="group" aria-label="Basic example">
                             <button type="button" class="btn btn-light" onclick="change_member_cnt(false);">-</button>
-                            <span type="button" id="memb_cnt_span" class="btn btn-light" style="background: #fff; cursor: default;">1</span>
+                            <span type="button" id="memb_cnt_span" class="btn btn-light" style="background: #fff; cursor: default;">0</span>
                             <button type="button" class="btn btn-light" onclick="change_member_cnt(true);">+</button>
                           </div>
 
-                        <div id="member1" class="d-flex justify-content-around">
+                        <div id="member1" class="d-none justify-content-around">
                             <input type="text" class="form-control col-6" id="memb1_name_txt" placeholder="Team Member 1"
                                 autocomplete="name">
                             <input type="number" class="form-control col-6" id="memb1_reg_txt" placeholder="Register No.">
@@ -111,9 +112,12 @@
                             <input type="number" class="form-control col-6"  id="memb2_reg_txt" placeholder="Register No.">
                         </div>
 
+                        <div id="error" style="color: var(--danger);font-weight: bold;display: none;" class="m-2">
+                            Please Fill all the required details
+                        </div>
 
-
-                        <button class="form-control" id="submit-button" onclick="register_clk()">Register</button>
+                        <button class="form-control" id="submit-button" onclick="register_clk()">Register
+                        </button>
                     </div>
                 </div>
             </div>
