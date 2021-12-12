@@ -82,13 +82,13 @@ exports.handler = async (event) => {
                                 <td style="padding: 1rem;">${data["team"][0][1]}</td>
                             </tr>
 
-    `)+(data["team"][1][0]?`
+    `)+(data["team"][1]?`
                             <tr>
                                 <td style="padding: 1rem;">${data["team"][1][0]}</td>
                                 <td style="padding: 1rem;">${data["team"][1][1]}</td>
                             </tr>
     `:'')
-    +(data["team"][2][0]?`
+    +(data["team"][2]?`
                             <tr>
                                 <td style="padding: 1rem;">${data["team"][2][0]}</td>
                                 <td style="padding: 1rem;">${data["team"][2][1]}</td>
