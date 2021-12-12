@@ -4,11 +4,14 @@ var event_categ = query_par.get("categ");
 
 var memb_cnt = 1;
 
+var img_name;
+
 fetch("data/event_details.json").then((res) => res.json()).then((event_data) => {
 
+    img_name = event_data[event_categ][event_name]["img"];
     event_name_div.innerHTML = event_name;
     event_desc_div.innerHTML = event_data[event_categ][event_name]["long_desc"];
-    event_img.src = "images/events/" + event_data[event_categ][event_name]["img"] + ".jpg";
+    event_img.src = "images/events/" + img_name + ".jpg";
     organiser_list.innerHTML = event_data[event_categ][event_name]["organisers"].map(e => (`
         <tr><td class="font-weight-bold">${e[0]}</td><td><i class="fa fa-phone"></i>&nbsp;&nbsp;${e[1]}</td></tr>
     `)).join(" ")
@@ -52,6 +55,7 @@ function register_clk() {
         body: JSON.stringify({
             event_categ: event_categ,
             event_name: event_name,
+            img: img_name,
             team: team_arr,
             dept: dept_select.value,
             phone: phone_txt.value,
