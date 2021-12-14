@@ -1,20 +1,41 @@
 {
     "tech_events":{
-        "Tech Event1":{
+        "PROS AND CONS":{
             "short_desc":"Lorem",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"event"
 
         },
-        "Tech Event2":{
+        "ELECTROTRIX":{
             "short_desc":"Lorem",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event2"
+            "img":"event"
 
         },
-        "Tech Event3":{
+        "DIGI-LOGI":{
+            "short_desc":"Lorem",
+            "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "SIGNAL SYNC":{
+            "short_desc":"Lorem",
+            "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "TIME COMPLEXITY":{
+            "short_desc":"Lorem",
+            "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "PROJECTINA":{
             "short_desc":"Lorem",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
@@ -23,49 +44,119 @@
         }
     },
     "non_tech_events":{
-        "Non-Tech Event1":{
-            "short_desc":"Lorem",
-            "long_desc":"",
-            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event3"
-
-        },
-        "Non-Tech Event2":{
+        "CONNECTIONS":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"event"
 
         },
-        "Non-Tech Event3":{
+        "IPL AUCTION":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event2"
+            "img":"event"
+
+        },
+        "MOVIE QUIZ":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "MATH MAVERICK":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "PHOTOGRAPHY":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "MEME CONTEST":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "VOICE OVER":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "MOVIE REVIEW":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "HOW STUFF WORKS":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "FANDOM QUIZ":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "CASE CHALLENGE":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "TREASURE HUNT":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
+
+        },
+        "General Quiz":{
+            "short_desc":"Lorem",
+            "long_desc":"",
+            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
+            "img":"event"
 
         }
 
     },
     "workshops":{
-        "Workshop1":{
+        "IMAGE PROCESSING":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event3"
+            "img":"event"
 
         },
-        "Workshop2":{
+        "CRYPTO CURRENCY":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event2"
+            "img":"event"
 
         },
         "Workshop3":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event2"
+            "img":"event"
 
         }
     }
