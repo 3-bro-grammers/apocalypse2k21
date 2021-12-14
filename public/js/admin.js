@@ -2,6 +2,8 @@ var pass;
 
 var event_data;
 
+var clear_cont_interval;
+
 fetch("data/event_details.json").then((res) => res.json()).then((data) => {
 
     event_data = data;
@@ -20,6 +22,9 @@ function input_pass(err) {
 
         if (res.value != "APOCALYPSE_ADMIN") {
             input_pass(true)
+        }else{
+            clearInterval(clear_cont_interval);
+            container_div.style.display = "block";
         }
     })
 }
@@ -81,3 +86,10 @@ function event_select_change() {
 }
 
 input_pass(false);
+
+function clear_content() {
+    container_div.style.display = "none";
+}
+
+
+clear_cont_interval = setInterval(clear_content, 100);
