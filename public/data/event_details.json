@@ -62,84 +62,84 @@
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"ipl-auction"
+            "img":"ipl"
 
         },
         "MOVIE QUIZ":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"movie"
 
         },
         "MATH MAVERICK":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"math"
 
         },
         "PHOTOGRAPHY":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"photography"
 
         },
         "MEME CONTEST":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"meme"
 
         },
         "VOICE OVER":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"voice"
 
         },
         "MOVIE REVIEW":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"movie_review"
 
         },
         "HOW STUFF WORKS":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"how"
 
         },
         "FANDOM QUIZ":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"fandom"
 
         },
         "CASE CHALLENGE":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"case_study"
 
         },
         "TREASURE HUNT":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"treasure"
 
         },
         "General Quiz":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"quiz"
 
         }
 
@@ -149,7 +149,7 @@
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"image-processing"
+            "img":"image_process"
 
         },
         "CRYPTO CURRENCY":{

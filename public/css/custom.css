@@ -429,6 +429,7 @@ a:focus {
   border-radius: 0 0 2px 2px;
   padding: 1rem 2rem;
   position: relative;
+  height: 180px;
 }
 
 .class-info img {
@@ -716,6 +717,20 @@ button#submit-button:hover {
 
 .icon-right {
   transform: scale(1.5);
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  animation: move-anim infinite alternate-reverse ease-in-out 0.5s;
+}
+
+@keyframes move-anim {
+  from  {
+    transform: scale(1.5) translate(0);
+  }
+  to {
+    transform: scale(1.5) translate(5px);
+  }
+  
 }
 
 /*---------------------------------------
@@ -796,4 +811,15 @@ button#submit-button:hover {
   margin: auto;
   font-size: 0.8em;
   max-width: 90vw;
+}
+
+.event-card .card-text {
+  margin-bottom: 5rem;
+}
+
+.event-card button {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%);
+  left: 50%;
 }
