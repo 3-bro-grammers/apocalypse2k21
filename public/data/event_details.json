@@ -55,14 +55,14 @@
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"connections"
 
         },
         "IPL AUCTION":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"ipl-auction"
 
         },
         "MOVIE QUIZ":{
@@ -149,21 +149,14 @@
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"image-processing"
 
         },
         "CRYPTO CURRENCY":{
             "short_desc":"Lorem",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
-
-        },
-        "Workshop3":{
-            "short_desc":"Lorem",
-            "long_desc":"",
-            "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
-            "img":"event"
+            "img":"crypto"
 
         }
     }
