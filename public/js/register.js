@@ -2,6 +2,8 @@ var query_par = new URLSearchParams(window.location.search);
 var event_name = query_par.get("event_name");
 var event_categ = query_par.get("categ");
 
+if(event_categ == "workshops")
+    document.getElementById("mem_btn").style.display="none";
 var memb_cnt = 0;
 var required = ["leader_name_txt","leader_reg_txt","email_txt","phone_txt"];
 var img_name;
