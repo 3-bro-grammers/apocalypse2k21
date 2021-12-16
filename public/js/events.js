@@ -8,7 +8,7 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
     for (event_categ in event_data) {
         var categ_inner = "";
         for (tech_event in event_data[event_categ]) {
-            if (tech_event.indexOf("Technocrat") > -1)
+            if (tech_event.indexOf("TECHNOCRAT") > -1)
                 continue;
             categ_inner += `<div class="card m-3 event-card" style="width: 18rem;">
             <img src="images/events/${event_data[event_categ][tech_event]['img']}.jpg" class="card-img-top">

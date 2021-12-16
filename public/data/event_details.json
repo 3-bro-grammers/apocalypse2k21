@@ -44,7 +44,7 @@
         },
         "PROJECTINA":{
             "short_desc":"Project Presentation",
-            "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "long_desc":"The participants are asked to present a project on their areas of interest .The projects based on IOT and embedded systems are most welcomed.",
             "organisers":[["Santhosh", "6379982870"], ["Sowmika", "9344460167"]],
             "img":"projectina"
 
@@ -153,7 +153,7 @@
     "workshops":{
         "IMAGE PROCESSING":{
             "short_desc":"By Dr.Prashanth Chandran",
-            "long_desc":"Webinar on Image Processing",
+            "long_desc":"Webinar on Image Processing <br> <b>By Dr.Prashanth Chandran</b>,<br>scholar at Zurich University",
             "organisers":[["Mukundhan R", "6382305769"], ["Nijith Sahay", "9514478810"]],
             "img":"image_process"
 
