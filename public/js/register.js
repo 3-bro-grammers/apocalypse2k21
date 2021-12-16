@@ -2,8 +2,11 @@ var query_par = new URLSearchParams(window.location.search);
 var event_name = query_par.get("event_name");
 var event_categ = query_par.get("categ");
 
-if(event_categ == "workshops")
+if(event_categ == "workshops" || (event_name.indexOf("Technocrat")>-1)){
     document.getElementById("mem_btn").style.display="none";
+    document.getElementById("leader_name_txt").placeholder="Name";
+}
+    
 var memb_cnt = 0;
 var required = ["leader_name_txt","leader_reg_txt","email_txt","phone_txt"];
 var img_name;

@@ -141,6 +141,12 @@
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"quiz"
 
+        },
+        "Mr. - Ms. Technocrat":{
+            "short_desc":"Lorem",
+            "long_desc":"Title Event of Apocalypse MIT",
+            "organisers":[["Mukundhan", "9856321475"], ["Sai Jayasree", "8547963216"]],
+            "img":"mega"
         }
 
     },
