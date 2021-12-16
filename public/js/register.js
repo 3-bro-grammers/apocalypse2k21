@@ -19,7 +19,7 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
     event_desc_div.innerHTML = event_data[event_categ][event_name]["long_desc"];
     event_img.src = "images/events/" + img_name + ".jpg";
     organiser_list.innerHTML = event_data[event_categ][event_name]["organisers"].map(e => (`
-        <tr><td class="font-weight-bold">${e[0]}</td><td><i class="fa fa-phone"></i>&nbsp;&nbsp;${e[1]}</td></tr>
+        <tr><td class="font-weight-bold">${e[0]}</td><td><a href="tel:${e[1]}"><i class="fa fa-phone"></i>&nbsp;&nbsp;${e[1]}</a></td></tr>
     `)).join(" ")
 
 })
