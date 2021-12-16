@@ -53,12 +53,17 @@ const validateEmail = (email) => {
   };
 
 function register_clk() {
-
+    document.getElementById("submit-button").disabled = true;
+    error.innerHTML="";
     var team_arr = [];
     var valid = true;
+    var error_msg = "Please Fill all the required details";
     var email = document.getElementById("email_txt").value;
-    valid = validateEmail(email) ? true : false;
-    console.log(valid);
+    if(!validateEmail(email))
+    {
+        valid = false;
+        error_msg = "Invalid E-mail address";
+    }
     required.forEach((e,i)=>{
         if(! document.getElementById(e).value)
         {
@@ -66,8 +71,11 @@ function register_clk() {
                 return ;
         }
     });
-    if(document.getElementById('phone_txt').value.length !=10)
+    if(document.getElementById('phone_txt').value.length !=10 || document.getElementById("leader_reg_txt").value.length !=10 )   
+    {
         valid = false;
+        error_msg = "Phone no. and Register no. should be 10 digits";
+    }
     for(i = 1; i<=memb_cnt && valid;i++)
     {
         if(!document.getElementById(`memb${i}_name_txt`).value || !document.getElementById(`memb${i}_reg_txt`).value)
@@ -78,12 +86,15 @@ function register_clk() {
         if(document.getElementById(`memb${i}_reg_txt`).value.length != 10 )
         {
                 valid = false;
+                error_msg = "Phone no. and Register no. should be 10 digits";
                 break;
         }    
     }
     if(!valid || dept_select.value=="default")
     {
+        error.innerHTML = error_msg;
         error.style.display="block";
+        document.getElementById("submit-button").disabled = false;
         return ;
     }
         
@@ -108,6 +119,7 @@ function register_clk() {
         })
     }).then(res=>res.text()).then(data =>{
         loader.style.display="none";
+        document.getElementById("submit-button").disabled = false;
         if(data == "DONE")
         {
             Swal.fire(
