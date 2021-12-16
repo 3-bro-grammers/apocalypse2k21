@@ -2,7 +2,7 @@
     "tech_events":{
         "PROS AND CONS":{
             "short_desc":"Microprocessor",
-            "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "long_desc":"Pros and Cons mainly focusses on Microprocessor and Microcontrollers programming.<br><br>It tests the conceptual understanding of students and their programming and analyzing skills.<br><br>It consists of 2 Rounds wherein the first round is MCQ based assessing followed by Interviews in the second Round.",
             "organisers":[["Vishnuvardhan", "9566076990"], ["Sri Sandhya", "6382596690"]],
             "img":"pros-cons"
 
@@ -37,7 +37,7 @@
         },
         "BIG-O":{
             "short_desc":"Time Complexity",
-            "long_desc":"-> The First Round will be a MCQ type based on time complexity in algorithms, pseudo code.<br>-> The Second round will be problem solving on Time and space complexity",
+            "long_desc":"The First Round will be a MCQ type based on time complexity in algorithms, pseudo code.<br><br>The Second round will be problem solving on Time and space complexity",
             "organisers":[["Mohamed Harish", "6383240985"], ["Selvamathi T", "6369089646"]],
             "img":"bigo"
 
@@ -53,28 +53,28 @@
     "non_tech_events":{
         "CONNECTIONS":{
             "short_desc":"",
-            "long_desc":"",
+            "long_desc":"Hey Folks!!!<br><br>This is an interesting and fun-filled non technical event & it's all about connecting the pictures to find the answer out of it.",
             "organisers":[["Senapathi S", "6383357713"], ["Bagavathi Dharshini R", "9585957495"]],
             "img":"connections"
 
         },
         "IPL AUCTION":{
             "short_desc":"",
-            "long_desc":"",
+            "long_desc":"Love to bid? Join our auction party<br><br>The ultimate bidding strategy<br><br>Catch the action at the Auction!!!",
             "organisers":[["Mohamed Riyaz", "8838352401"], ["Madhumitha R", "9677672329"]],
             "img":"ipl"
 
         },
         "MOVIE QUIZ":{
             "short_desc":"",
-            "long_desc":"",
+            "long_desc":"Are you a film freak?<br><br>Do you know movies better than you know yourself?! <br><br>Then take our incredibly interesting quiz and explore the cinematic universe!!",
             "organisers":[["Mukil J A", "9498870535"], ["Bhuvaneaswari", "9487355768"]],
             "img":"movie"
 
         },
         "MATH MAVERICK":{
             "short_desc":"",
-            "long_desc":"",
+            "long_desc":"The event that really counts !!!",
             "organisers":[["Arun Vikram", "7708455193"], ["Kalaiyarasi S", "9566303920"]],
             "img":"math"
 
@@ -95,15 +95,15 @@
         },
         "VOICE OVER":{
             "short_desc":"",
-            "long_desc":"",
+            "long_desc":"The Participants are asked to dub the muted video with accurate words, slang, emotion and style!!",
             "organisers":[["Manoj Kumar M", "6383772047"], ["Dharani K", "6379020906"]],
             "img":"voice"
 
         },
         "MOVIE REVIEW":{
             "short_desc":"",
-            "long_desc":"",
-            "organisers":[["Naren S K", ""], ["Divyapriya", "9994307475"]],
+            "long_desc":"Ever thought of becoming another blue sattai or panda!!<br><br>Here's the chance to reveal the movie reviewer side of yours!!<br><br>Note:<br><ul><li>Movie name will be give on the spot</li><li>Languages: Tamil, English, Malayalam</li></ul>",
+            "organisers":[["Naren S K", "9677384564"], ["Divyapriya", "9994307475"]],
             "img":"movie_review"
 
         },
@@ -116,28 +116,28 @@
         },
         "FANDOM QUIZ":{
             "short_desc":"",
-            "long_desc":"",
+            "long_desc":"Marvel | DC Quiz!!!",
             "organisers":[["Keethivasan K", "6382929681"], ["Monigaa N", "6383650053"]],
             "img":"fandom"
 
         },
         "CASE CHALLENGE":{
             "short_desc":"",
-            "long_desc":"",
+            "long_desc":"<b>Case:</b> Why should we participate in Apocalypse's Case Challenge?<br><br><b>Background:</b> It is a fun event which will test your data interpretation and business problem solving skills.<br><br><b>Reasoning:</b> Due to their dynamic and challenging nature, case competitions are well worth considering. It is an amazing way to put your technical skills to the test and your classroom knowledge into practice.<br><br><b>Target audience:</b> Guys who prefer to work outside IT and Core and anyone with logical thought process.<br><br><b>Verdict:</b> Register to our event guys!",
             "organisers":[["Vishnuvardhan D", "9566076990"], ["Sai Jayashree S", "8144011469"]],
             "img":"case_study"
 
         },
         "TREASURE HUNT":{
             "short_desc":"",
-            "long_desc":"",
+            "long_desc":"The idea of hunting for hidden treasures has always been excitin gand adventurous!<br><br>We bring you an opportunity to awaken your inner Holmes. Join us in the Adventure!!",
             "organisers":[["Chandru A", "8124424244"], ["Kralisha A J", "6384383828"]],
             "img":"treasure"
 
         },
         "General Quiz":{
             "short_desc":"",
-            "long_desc":"",
+            "long_desc":"Isn't life a collection of weird quizzes with no answers to half the questions? Join us to explore a few of 'em.",
             "organisers":[["Gokul Krishna U", "9087683166"], ["Sivasri A", "6383990832"]],
             "img":"quiz"
 
@@ -147,14 +147,14 @@
     "workshops":{
         "IMAGE PROCESSING":{
             "short_desc":"By Dr.Prashanth Chandran",
-            "long_desc":"",
+            "long_desc":"Webinar on Image Processing",
             "organisers":[["Mukundhan R", "6382305769"], ["Nijith Sahay", "9514478810"]],
             "img":"image_process"
 
         },
         "CRYPTO CURRENCY":{
-            "short_desc":"By Mr.Pari Prabakaran",
-            "long_desc":"",
+            "short_desc":"By Students",
+            "long_desc":"Webinar on Crypto Currency",
             "organisers":[["Ananth B", "9787799646"], ["Adityan G", "7448928609"]],
             "img":"crypto"
 
