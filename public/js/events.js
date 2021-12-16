@@ -8,6 +8,8 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
     for (event_categ in event_data) {
         var categ_inner = "";
         for (tech_event in event_data[event_categ]) {
+            if (tech_event.indexOf("Technocrat") > -1)
+                continue;
             categ_inner += `<div class="card m-3 event-card" style="width: 18rem;">
             <img src="images/events/${event_data[event_categ][tech_event]['img']}.jpg" class="card-img-top">
                 <div class="card-body">
@@ -18,13 +20,13 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
             </div>`
         }
 
-        document.getElementById(event_categ+"_cont_div").innerHTML = categ_inner;
+        document.getElementById(event_categ + "_cont_div").innerHTML = categ_inner;
     }
 
     document.getElementById(event_name).click();
-    
+
 });
 
-function register_clk(event_name, event_categ){
+function register_clk(event_name, event_categ) {
     location.href = `register.html?event_name=${event_name}&categ=${event_categ}`;
 }

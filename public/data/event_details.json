@@ -135,12 +135,18 @@
             "img":"treasure"
 
         },
-        "General Quiz":{
+        "GENERAL QUIZ":{
             "short_desc":"",
             "long_desc":"Isn't life a collection of weird quizzes with no answers to half the questions? Join us to explore a few of 'em.",
             "organisers":[["Gokul Krishna U", "9087683166"], ["Sivasri A", "6383990832"]],
             "img":"quiz"
 
+        },
+        "MR. - MS. TECHNOCRAT":{
+            "short_desc":"Lorem",
+            "long_desc":"Title Event of Apocalypse MIT",
+            "organisers":[["Mukundhan", "9856321475"], ["Sai Jayasree", "8547963216"]],
+            "img":"mega"
         }
 
     },
