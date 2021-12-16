@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body onload='document.getElementById("inputs").reset();' >
     <!-- MENU BAR -->
     <nav class="navbar">
         <div class="container-fluid">
@@ -67,6 +67,7 @@
                     <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200"> Register Now</h2>
 
                     <div class="contact-form webform" data-aos="fade-up" data-aos-delay="400">
+                        <form id="inputs"> 
                         <div class="d-flex justify-content-around">
                             <input type="text" class="form-control col-6" id="leader_name_txt" placeholder="Team Leader"
                                 autocomplete="name">
@@ -119,6 +120,7 @@
                         <button class="form-control" id="submit-button" onclick="register_clk()">Register
                             <i class="fa fa-refresh fa-spin ml-3" style="color:white; display: none;" id="loader"></i>
                         </button>
+                        </form>
                     </div>
                 </div>
             </div>
