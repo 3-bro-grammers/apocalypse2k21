@@ -1,49 +1,49 @@
 {
     "tech_events":{
         "PROS AND CONS":{
-            "short_desc":"Lorem",
+            "short_desc":"Microprocessor",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"pros-cons"
 
         },
         "ELECTROTRIX":{
-            "short_desc":"Lorem",
+            "short_desc":"Electronic Circuits",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"electrotrix"
 
         },
         "CODE MANTRA":{
-            "short_desc":"Lorem",
+            "short_desc":"Coding Contest",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["Mohan Raj R", "6382540649"], ["Swaminathan K", "8547963216"]],
             "img":"coding-mantra"
 
         },
         "DIGI-LOGI":{
-            "short_desc":"Lorem",
+            "short_desc":"Digital Electronics",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"digi-logic"
 
         },
         "SIGNAL SYNC":{
-            "short_desc":"Lorem",
+            "short_desc":"Signal & Systems",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"signals"
 
         },
         "BIG-O":{
-            "short_desc":"Lorem",
+            "short_desc":"Time Complexity",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"bigo"
 
         },
         "PROJECTINA":{
-            "short_desc":"Lorem",
+            "short_desc":"Project Presentation",
             "long_desc":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"projectina"
@@ -52,91 +52,91 @@
     },
     "non_tech_events":{
         "CONNECTIONS":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"connections"
 
         },
         "IPL AUCTION":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"ipl"
 
         },
         "MOVIE QUIZ":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"movie"
 
         },
         "MATH MAVERICK":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"math"
 
         },
         "PHOTOGRAPHY":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"photography"
 
         },
         "MEME CONTEST":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"meme"
 
         },
         "VOICE OVER":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"voice"
 
         },
         "MOVIE REVIEW":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"movie_review"
 
         },
         "HOW STUFF WORKS":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"how"
 
         },
         "FANDOM QUIZ":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"fandom"
 
         },
         "CASE CHALLENGE":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"case_study"
 
         },
         "TREASURE HUNT":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"treasure"
 
         },
         "General Quiz":{
-            "short_desc":"Lorem",
+            "short_desc":"",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"quiz"
@@ -146,14 +146,14 @@
     },
     "workshops":{
         "IMAGE PROCESSING":{
-            "short_desc":"Lorem",
+            "short_desc":"By Dr.Prashanth Chandran",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"image_process"
 
         },
         "CRYPTO CURRENCY":{
-            "short_desc":"Lorem",
+            "short_desc":"By Mr.Pari Prabakaran",
             "long_desc":"",
             "organisers":[["asdfg", "9856321475"], ["poiuy", "8547963216"]],
             "img":"crypto"
