@@ -1,9 +1,13 @@
 var query_par = new URLSearchParams(window.location.search);
 var event_name = query_par.get("event_name");
 var event_categ = query_par.get("categ");
-
-if(event_categ == "workshops")
+var single_event=["CODE MANTRA","VOICE OVER","MEME CONTEST"];
+if(event_categ == "workshops" || single_event.indexOf(event_name)>-1)
+{
     document.getElementById("mem_btn").style.display="none";
+    document.getElementById("leader_name_txt").placeholder = "Name";
+}
+    
 var memb_cnt = 0;
 var required = ["leader_name_txt","leader_reg_txt","email_txt","phone_txt"];
 var img_name;
@@ -40,11 +44,21 @@ function change_member_cnt(inc) {
 
     memb_cnt_span.innerHTML = memb_cnt;
 }
+const validateEmail = (email) => {
+    return String(email)
+      .toLowerCase()
+      .match(
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      );
+  };
 
 function register_clk() {
 
     var team_arr = [];
     var valid = true;
+    var email = document.getElementById("email_txt").value;
+    valid = validateEmail(email) ? true : false;
+    console.log(valid);
     required.forEach((e,i)=>{
         if(! document.getElementById(e).value)
         {
@@ -52,12 +66,19 @@ function register_clk() {
                 return ;
         }
     });
-    for(i = 1; i<=memb_cnt;i++)
+    if(document.getElementById('phone_txt').value.length !=10)
+        valid = false;
+    for(i = 1; i<=memb_cnt && valid;i++)
     {
         if(!document.getElementById(`memb${i}_name_txt`).value || !document.getElementById(`memb${i}_reg_txt`).value)
         {
             valid = false;
             break;
+        }
+        if(document.getElementById(`memb${i}_reg_txt`).value.length != 10 )
+        {
+                valid = false;
+                break;
         }    
     }
     if(!valid || dept_select.value=="default")
