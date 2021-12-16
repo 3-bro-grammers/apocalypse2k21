@@ -822,4 +822,5 @@ button#submit-button:hover {
   bottom: 0;
   transform: translate(-50%);
   left: 50%;
+  width: 80%;
 }
