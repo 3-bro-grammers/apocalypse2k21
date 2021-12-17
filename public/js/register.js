@@ -1,8 +1,8 @@
 var query_par = new URLSearchParams(window.location.search);
 var event_name = query_par.get("event_name");
 var event_categ = query_par.get("categ");
-var single_event=["CODE MANTRA","VOICE OVER","MEME CONTEST", "MR AND MS TECHNOCRAT", "PHOTOGRAPHY"];
-if(event_categ == "workshops" || single_event.indexOf(event_name)>-1)
+var single_event=["VOICE OVER","MEME CONTEST", "MR AND MS TECHNOCRAT", "PHOTOGRAPHY", "MOVIE REVIEW" , "CASE CHALLENGE"];
+if(event_categ == "workshops" || single_event.indexOf(event_name)>-1 || (event_categ=="tech_events" && event_name !="PROJECTINA" ))
 {
     document.getElementById("mem_btn").style.display="none";
     document.getElementById("leader_name_txt").placeholder = "Name";
