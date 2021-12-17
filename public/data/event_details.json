@@ -81,7 +81,7 @@
         },
         "PHOTOGRAPHY":{
             "short_desc":"",
-            "long_desc":"Capture a picture that has the magic to make the moment last forever.",
+            "long_desc":"<div>Capture a picture that has the magic to make the moment last forever.</div><div><b>Instructions</b><ul><li>Editing and filters are not allowed</li><li>No plagiarism</li><li>Selfies not allowed</li><li>Caption the image</li></ul></div>",
             "organisers":[["Chiranjeevi Saravanan", "9600349209"], ["Sowmiya", "9444171304"]],
             "img":"photography"
 
