@@ -145,7 +145,7 @@
         "MR AND MS TECHNOCRAT":{
             "short_desc":"Lorem",
             "long_desc":"Being termed students,Toppers, Engineers we always hid behind titles. Here's your chance to shine alone and ablaze.Join us for the grand title event of Apocalypse <b>Mr and Ms Technocrat</b> and earn exciting prizes! It's fun, it's Invigorating and most importantly its non-technical.Stay tuned for the surprise events and get an amazing chance to explore yourselves along the journey. Do register.",
-            "organisers":[["Mukundhan", "9856321475"], ["Sai Jayasree", "8547963216"]],
+            "organisers":[["Duke Daffin", "7397566385"], ["Mohana Priyadharshini", "9159610285"]],
             "img":"mega"
         }
 
@@ -158,10 +158,10 @@
             "img":"image_process"
 
         },
-        "CRYPTO CURRENCY":{
-            "short_desc":"By Students",
-            "long_desc":"Webinar on Crypto Currency",
-            "organisers":[["Ananth B", "9787799646"], ["Adityan G", "7448928609"]],
+        "CRYPTOCURRENCY":{
+            "short_desc":"Webinar on CryptoCurrency",
+            "long_desc":"Introduction to Blockchain Technology.<br><br>Detailed explanation of Cryptocurrencies and their uses will be discussed.",
+            "organisers":[["Ananth B", "9787799646"], ["Adityen G", "7448928609"]],
             "img":"crypto"
 
         }

@@ -685,6 +685,7 @@ button#submit-button:hover {
 
 .organiser-table td {
   padding: 10px;
+  padding-left: 0;
 }
 
 #headline {
