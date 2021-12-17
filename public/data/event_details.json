@@ -158,10 +158,10 @@
             "img":"image_process"
 
         },
-        "CRYPTO CURRENCY":{
-            "short_desc":"By Students",
-            "long_desc":"Webinar on Crypto Currency",
-            "organisers":[["Ananth B", "9787799646"], ["Adityan G", "7448928609"]],
+        "CRYPTOCURRENCY":{
+            "short_desc":"Webinar on CryptoCurrency",
+            "long_desc":"Introduction to Blockchain Technology.<br><br>Detailed explanation of Cryptocurrencies and their uses will be discussed.",
+            "organisers":[["Ananth B", "9787799646"], ["Adityen G", "7448928609"]],
             "img":"crypto"
 
         }
