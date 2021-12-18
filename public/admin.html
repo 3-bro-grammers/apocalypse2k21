@@ -42,12 +42,19 @@
     <section class="pt-2">
         <div class="container" style="display: none;" id="container_div">
 
+            <div class="align-items-baseline d-flex justify-content-between" style="    position: sticky;
+            top: 0;
+            z-index: 10;
+            background: white;
+            padding-top: 10px;
+            border-bottom: 1px solid;">
+                <h4 class="pb-2 font-weight-bold"> Registrations</h4>
+                <button id="refresh_btn" class="btn btn-outline-primary" onclick="event_select_change()"><i class="fa fa-refresh"></i></button>
+            </div>
+
             <div class="m-auto col-lg-5 col-md-6 col-12">
 
-                <div class="align-items-baseline d-flex justify-content-between">
-                    <h4 class="pb-2"> Registrations</h4>
-                    <button id="refresh_btn" class="btn btn-outline-primary" onclick="event_select_change()"><i class="fa fa-refresh"></i></button>
-                </div>
+                
 
                 <div class="contact-form webform">
                     <select id="event_categ_select" class="form-control" style="height: 3.5rem;"
@@ -62,7 +69,16 @@
                         onchange="event_select_change()">
 
                     </select>
-                    <div style="text-align: center;"><button class="btn btn-primary mb-3" onclick="copy_mail_clk()">Copy All Mails</button></div>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            Registrations: 
+                            <span class="font-weight-bold" id="reg_cnt_span">0000</span>
+                            
+                             
+                        </div>
+                        <div style="text-align: center;"><button class="btn btn-primary" onclick="copy_mail_clk()">Copy All Mails</button></div>
+                    </div>
+                    
                     
                 </div>
             </div>
