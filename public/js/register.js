@@ -1,6 +1,18 @@
 var query_par = new URLSearchParams(window.location.search);
 var event_name = query_par.get("event_name");
 var event_categ = query_par.get("categ");
+var dept ={
+    "Electronics and Communication": "ECE",  
+    "Aeronautical Engineering": "AERO",
+    "Automobile Engineering": "AUTO",
+    "Computer science": "CT",
+    "Electronics and instrumentation" : "E&I",
+    "Information Technology" : "IT",
+    "Mechanical Engineering": "MECH",
+    "Production Technology": "PT",
+    "Rubber and Plastic Technology" : "RPT"
+};
+
 var single_event=["VOICE OVER","MEME CONTEST", "MR AND MS TECHNOCRAT", "PHOTOGRAPHY", "MOVIE REVIEW" , "CASE CHALLENGE"];
 if(event_categ == "workshops" || single_event.indexOf(event_name)>-1 || (event_categ=="tech_events" && event_name !="PROJECTINA" && event_name !="PROS AND CONS" && event_name !="DIGI-LOGI" ))
 {
@@ -20,7 +32,18 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
     event_img.src = "images/events/" + img_name + ".jpg";
     organiser_list.innerHTML = event_data[event_categ][event_name]["organisers"].map(e => (`
         <tr><td class="font-weight-bold">${e[0]}</td><td><a href="tel:${e[1]}"><i class="fa fa-phone"></i>&nbsp;&nbsp;${e[1]}</a></td></tr>
-    `)).join(" ")
+    `)).join(" ");
+    if(event_data[event_categ][event_name]["result"])
+        show_results(event_data[event_categ][event_name]["result"]);
+    else
+    {
+        document.getElementById("inputs").reset();
+        document.getElementById("inputs").style.display="block";
+        reg_title.innerHTML = "Register Now";
+        reg_nav.innerHTML = "REGISTER";
+    }
+        
+
 
 })
 
@@ -138,6 +161,28 @@ function register_clk() {
     })
 
 }
+function show_results(event_result) {
+    reg_nav.innerHTML="Results";
+    reg_title.innerHTML="Results";
+    document.getElementById("result-table").style.display ="block";
+    var txt = "";
+    event_result.forEach((team,i)=>{
+        var color = i==0?"#FFD700":"#C0C0C0";
+        var rank   = i==0?"Winner":"Runner"; 
+        txt+=`<tr>
+              <td rowspan= ${team.length} style="text-align: center">
+              <i class="fa fa-trophy" style="font-size: 2rem; color: ${color}" aria-hidden="true"></i>
+              <br>
+              <b>${rank}</b>
+              </td>`;
+        team.forEach((e,j)=>{
+            txt+= `<td class="font-weight-bold">${e[0]}</td>
+                    <td>${e[1]}</td>
+                    ${j==0?"<td rowspan ='"+ team.length +"'>"+dept[e[2]]+"</td>":""}
+                    </tr>`;
+        });
+    });
+    results.innerHTML = txt;
+}
 
-
-
+//[[["Krishna kumar","2018504620","Electronics and Communication"],["Sanjana","regno"],["Sanjana","regno"]],[["Name3","regno","Computer science"]]]

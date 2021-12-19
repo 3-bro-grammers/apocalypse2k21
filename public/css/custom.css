@@ -455,6 +455,9 @@ a:focus {
   text-align: center;
 }
 
+.res_dec {
+  background: #f13a11 !important;
+}
 
 /*---------------------------------------
      SCHEDULE             
@@ -683,10 +686,55 @@ button#submit-button:hover {
   background-color: var(--dark-color);
 }
 
-.organiser-table td {
+.organiser-table td{
   padding: 10px;
   padding-left: 0;
 }
+#result-table{
+  display: none;
+}
+.leaderboard-results {
+  text-align:left;
+  border-collapse: collapse;
+  display: block;
+  overflow: auto;
+  border: 1px ;
+  width: 100%;
+  
+}
+.leaderboard-results thead th {
+  padding: 25px;
+  font-size:14px;
+  background:#1a1a1a;
+  color: #fff;
+  border-color:#1a1a1a; 
+}
+.leaderboard-results tbody td {
+  padding:15px 25px;
+  font-size:16px;
+  vertical-align: middle;
+  border-bottom: 1px solid rgb(222,226,230);
+}
+.leaderboard-results tbody td:nth-of-type(7) {
+  font-weight:bold;
+}
+.leaderboard-results tbody tr {
+  color:#747474;
+}
+.leaderboard-results tbody span {
+  font-weight:bold;
+  padding:10px 15px;
+  border-radius:50%;
+}
+.leaderboard-results tbody tr:first-child span {
+  background:#5055CB;
+  color:white;
+}
+.leaderboard-results tbody tr span {
+  background:#262626;
+  color:#747474;
+}
+
 
 #headline {
   color: #fff;

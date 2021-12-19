@@ -27,13 +27,13 @@
 
 </head>
 
-<body onload='document.getElementById("inputs").reset();' >
+<body>
     <!-- MENU BAR -->
     <nav class="navbar">
         <div class="container-fluid">
 
-            <span class="navbar-brand"><a href="index.html" class="mr-2">
-                    <img style="height: 3rem" src="images/logo.png"></a> Register
+            <span class="navbar-brand" id="reg_nav"><a href="index.html" class="mr-2" >
+                    <img style="height: 3rem" src="images/logo.png"></a>
             </span>
 
         </div>
@@ -64,10 +64,21 @@
 
                 </div>
                 <div class="ml-auto col-lg-5 col-md-6 col-12">
-                    <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200"> Register Now</h2>
-
+                    <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200" id="reg_title"></h2>
                     <div class="contact-form webform" data-aos="fade-up" data-aos-delay="400">
-                        <form id="inputs"> 
+                        <table id="result-table" class="leaderboard-results">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Name</th>
+                                    <th>Reg No.</th>
+                                    <th>Dept.</th>
+                                </tr>
+                            </thead>
+                            <tbody id="results">
+                            </tbody>
+                        </table>
+                        <form id="inputs" style="display: none;"> 
                         <div class="d-flex justify-content-around">
                             <input type="text" class="form-control col-6" id="leader_name_txt" placeholder="Team Leader"
                                 autocomplete="name">
