@@ -686,53 +686,62 @@ button#submit-button:hover {
   background-color: var(--dark-color);
 }
 
-.organiser-table td{
+.organiser-table td {
   padding: 10px;
   padding-left: 0;
 }
-#result-table{
+
+#result-table {
   display: none;
 }
+
 .leaderboard-results {
-  text-align:left;
+  text-align: left;
   border-collapse: collapse;
   display: block;
   overflow: auto;
-  border: 1px ;
+  border: 1px;
   width: 100%;
-  
+
 }
+
 .leaderboard-results thead th {
   padding: 25px;
-  font-size:14px;
-  background:#1a1a1a;
+  font-size: 14px;
+  background: #1a1a1a;
   color: #fff;
-  border-color:#1a1a1a; 
+  border-color: #1a1a1a;
 }
+
 .leaderboard-results tbody td {
-  padding:15px 25px;
-  font-size:16px;
+  padding: 15px 25px;
+  font-size: 16px;
   vertical-align: middle;
-  border-bottom: 1px solid rgb(222,226,230);
+  border-bottom: 1px solid rgb(222, 226, 230);
 }
+
 .leaderboard-results tbody td:nth-of-type(7) {
-  font-weight:bold;
+  font-weight: bold;
 }
+
 .leaderboard-results tbody tr {
-  color:#747474;
+  color: #747474;
 }
+
 .leaderboard-results tbody span {
-  font-weight:bold;
-  padding:10px 15px;
-  border-radius:50%;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 50%;
 }
+
 .leaderboard-results tbody tr:first-child span {
-  background:#5055CB;
-  color:white;
+  background: #5055CB;
+  color: white;
 }
+
 .leaderboard-results tbody tr span {
-  background:#262626;
-  color:#747474;
+  background: #262626;
+  color: #747474;
 }
 
 
@@ -773,13 +782,14 @@ button#submit-button:hover {
 }
 
 @keyframes move-anim {
-  from  {
+  from {
     transform: scale(1.5) translate(0);
   }
+
   to {
     transform: scale(1.5) translate(5px);
   }
-  
+
 }
 
 /*---------------------------------------
@@ -832,6 +842,16 @@ button#submit-button:hover {
   #title {
     font-size: 2.5rem;
   }
+
+  #results_div {
+    justify-content: center !important;
+  }
+
+  .winner-div, .runner-div {
+    width: 70%;
+    margin: 10px;
+  }
+
 }
 
 @media all and (max-width: 768px) {
@@ -875,25 +895,30 @@ button#submit-button:hover {
 }
 
 .fa.fa-trophy {
-  animation : shake_anim 2s infinite alternate ease-in-out;
+  animation: shake_anim 2s infinite alternate ease-in-out;
 }
 
 @keyframes shake_anim {
   from {
     transform: rotate(0deg);
   }
-  20%{
+
+  20% {
     transform: rotate(0deg);
   }
-  30%{
+
+  30% {
     transform: rotate(-10deg);
   }
-  50%{
+
+  50% {
     transform: rotate(10deg);
   }
+
   80% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
@@ -901,4 +926,50 @@ button#submit-button:hover {
 
 .back-color-gray {
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+#results_div {
+  justify-content: space-between;
+}
+
+.winner-div, .runner-div {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 45%;
+  background: lightyellow;
+}
+
+.runner-div {
+  background: lightcyan;
+}
+
+#winner_div_list>div, #runner_div_list>div {
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: silver;
+}
+
+#winner_div_list>div {
+  background-color: #FFD700;
+}
+
+#winner_dept, #runner_dept {
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 5px;
+  margin: 8px 0;
+  border-style: dashed;
+}
+
+.congrats {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  margin: 20px;
+  font-family: 'FontAwesome';
+  font-weight: bold;
+  color: red;
 }

@@ -162,28 +162,35 @@ function register_clk() {
 
 }
 function show_results(event_result) {
-    return
     reg_nav.innerHTML="Results";
     reg_title.innerHTML="Results";
-    document.getElementById("result-table").style.display ="block";
-    var txt = "";
-    event_result.forEach((team,i)=>{
-        var color = i==0?"#FFD700":"#C0C0C0";
-        var rank   = i==0?"Winner":"Runner"; 
-        txt+=`<tr>
-              <td rowspan= ${team.length} style="text-align: center">
-              <i class="fa fa-trophy" style="font-size: 2rem; color: ${color}" aria-hidden="true"></i>
-              <br>
-              <b>${rank}</b>
-              </td>`;
-        team.forEach((e,j)=>{
-            txt+= `<td class="font-weight-bold">${e[0]}</td>
-                    <td>${e[1]}</td>
-                    ${j==0?"<td rowspan ='"+ team.length +"'>"+dept[e[2]]+"</td>":""}
-                    </tr>`;
-        });
+    document.getElementById("results_cont").style.display ="block";
+    
+    winner_dept.innerHTML = dept[event_result[0][0][2]];
+    runner_dept.innerHTML = dept[event_result[1][0][2]];
+
+    var winner_div_txt = "";
+    event_result[0].forEach((memb,i)=>{
+
+        winner_div_txt += `<div class="d-flex flex-column">
+            <div class="font-weight-bold">${memb[0]}</div>
+            <div>${memb[1]}</div>
+        </div>`
     });
-    results.innerHTML = txt;
+
+    winner_div_list.innerHTML = winner_div_txt;
+
+    var runner_div_txt = "";
+    event_result[1].forEach((memb,i)=>{
+
+        runner_div_txt += `<div class="d-flex flex-column">
+            <div class="font-weight-bold">${memb[0]}</div>
+            <div>${memb[1]}</div>
+        </div>`
+    });
+
+    runner_div_list.innerHTML = runner_div_txt;
+    
 }
 
 //[[["Krishna kumar","2018504620","Electronics and Communication"],["Sanjana","regno"],["Sanjana","regno"]],[["Name3","regno","Computer science"]]]
