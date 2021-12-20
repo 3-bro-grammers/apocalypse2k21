@@ -162,6 +162,7 @@ function register_clk() {
 
 }
 function show_results(event_result) {
+    return
     reg_nav.innerHTML="Results";
     reg_title.innerHTML="Results";
     document.getElementById("result-table").style.display ="block";

@@ -5,7 +5,7 @@
             "long_desc":"Pros and Cons mainly focusses on Microprocessor and Microcontrollers programming.<br><br>It tests the conceptual understanding of students and their programming and analyzing skills.<br><br>It consists of 2 Rounds wherein the first round is MCQ based assessing followed by Interviews in the second Round.",
             "organisers":[["Vishnuvardhan", "9566076990"], ["Sri Sandhya", "6382596690"]],
             "img":"pros-cons",
-            "result": false
+            "result": [[["Krishna kumar","2018504620","Electronics and Communication"],["Sanjana","regno"],["Sanjana","regno"]],[["Name3","regno","Computer science"]]]
         },
         "ELECTROTRIX":{
             "short_desc":"Electronic Circuits",

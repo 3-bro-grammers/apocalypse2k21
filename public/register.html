@@ -11,7 +11,7 @@
     <meta name="keywords" content="apocalypse">
     <meta name="author" content="3-bro-grammers">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" type="image/jpg" href="https://apocalypse-2k21.web.app/images/logo-small.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="https://apocalypse-2k21.web.app/images/logo-small.png" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/aos.css">
@@ -32,7 +32,7 @@
     <nav class="navbar">
         <div class="container-fluid">
 
-            <span class="navbar-brand" id="reg_nav"><a href="index.html" class="mr-2" >
+            <span class="navbar-brand" id="reg_nav"><a href="index.html" class="mr-2">
                     <img style="height: 3rem" src="images/logo.png"></a>
             </span>
 
@@ -64,9 +64,9 @@
 
                 </div>
                 <div class="ml-auto col-lg-5 col-md-6 col-12">
-                    <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200" id="reg_title"></h2>
+                    <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200" id="reg_title">Results</h2>
                     <div class="contact-form webform" data-aos="fade-up" data-aos-delay="400">
-                        <table id="result-table" class="leaderboard-results">
+                        <!-- <table id="result-table" class="leaderboard-results">
                             <thead>
                                 <tr>
                                     <th>Rank</th>
@@ -77,60 +77,107 @@
                             </thead>
                             <tbody id="results">
                             </tbody>
-                        </table>
-                        <form id="inputs" style="display: none;"> 
-                        <div class="d-flex justify-content-around">
-                            <input type="text" class="form-control col-6" id="leader_name_txt" placeholder="Team Leader"
-                                autocomplete="name">
-                            <input type="number" class="form-control col-6" id="leader_reg_txt" placeholder="Register No.">
+                        </table> -->
+
+                        <div class="d-flex justify-content-between text-center">
+                            <div style="border: 1px solid; padding:10px; border-radius: 5px; min-width: 40%;">
+                                <div class="">WINNERS</div>
+                                <div><i class="fa fa-trophy" style="color: #FFD700; font-size: 5rem;"></i></div>
+                                <div style="border: 1px solid; padding:4px; border-radius: 5px; margin: 4px 0;">
+                                    ECE
+                                </div>
+                                <div class="d-flex flex-column" style="border: 1px solid; padding:4px; border-radius: 5px;">
+                                    <div>Name1</div>
+                                    <div>2145639870</div>
+                                </div>
+                                <div class="d-flex flex-column" style="border: 1px solid; padding:4px; border-radius: 5px;">
+                                    <div>Name1</div>
+                                    <div>2145639870</div>
+                                </div>
+                            </div>
+                            <div style="max-width: 50%;">
+                                <div>Runners</div>
+                                <div><i class="fa fa-trophy" style="color: #C0C0C0; font-size: 5rem; animation-delay: 0.5s;"></i></div>
+                                <div>
+                                    ECE
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <div>Name1 sdfsdffdsdfsdfssdf</div>
+                                    <div>2145639870</div>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <div>Name1</div>
+                                    <div>2145639870</div>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <div>Name1</div>
+                                    <div>2145639870</div>
+                                </div>
+                                
+                            </div>
                         </div>
+                        <form id="inputs" style="display: none;">
+                            <div class="d-flex justify-content-around">
+                                <input type="text" class="form-control col-6" id="leader_name_txt"
+                                    placeholder="Team Leader" autocomplete="name">
+                                <input type="number" class="form-control col-6" id="leader_reg_txt"
+                                    placeholder="Register No.">
+                            </div>
 
-                        <select id="dept_select" class="form-control" style="height: 3.5rem;">
-                            <option selected disabled value="default">Department</option>
-                            <option value="Electronics and Communication">Electronics and Communication Engineering</option>
-                            <option value="Aeronautical Engineering">Aeronautical Engineering</option>
-                            <option value="Automobile Engineering">Automobile Engineering</option>
-                            <option value="Computer science">Computer Science</option>
-                            <option value="Electronics and instrumentation">Electronics and Instrumentation</option>
-                            <option value="Information Technology">Information Technology</option>
-                            <option value="Mechanical Engineering">Mechanical Engineering</option>
-                            <option value="Production Technology">Production Technology</option>
-                            <option value="Rubber and Plastic Technology">Rubber and Plastic Technology</option>
-                            
-                        </select>
+                            <select id="dept_select" class="form-control" style="height: 3.5rem;">
+                                <option selected disabled value="default">Department</option>
+                                <option value="Electronics and Communication">Electronics and Communication Engineering
+                                </option>
+                                <option value="Aeronautical Engineering">Aeronautical Engineering</option>
+                                <option value="Automobile Engineering">Automobile Engineering</option>
+                                <option value="Computer science">Computer Science</option>
+                                <option value="Electronics and instrumentation">Electronics and Instrumentation</option>
+                                <option value="Information Technology">Information Technology</option>
+                                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                                <option value="Production Technology">Production Technology</option>
+                                <option value="Rubber and Plastic Technology">Rubber and Plastic Technology</option>
 
-                        <input type="email" class="form-control" id="email_txt" placeholder="Email"
-                            autocomplete="email">
+                            </select>
 
-                        <input type="tel" class="form-control" id="phone_txt" placeholder="Phone">
+                            <input type="email" class="form-control" id="email_txt" placeholder="Email"
+                                autocomplete="email">
+
+                            <input type="tel" class="form-control" id="phone_txt" placeholder="Phone">
 
 
-                        <div class="btn-group ml-3" id ="mem_btn" role="group" aria-label="Basic example">
-                            <label>Team Members</label>
-                            <button type="button" class="btn btn-light ml-2" onclick="change_member_cnt(false);">-</button>
-                            <span type="button" id="memb_cnt_span" class="btn btn-light" style="background: #fff; cursor: default;">0</span>
-                            <button type="button" class="btn btn-light" onclick="change_member_cnt(true);">+</button>
-                          </div>
+                            <div class="btn-group ml-3" id="mem_btn" role="group" aria-label="Basic example">
+                                <label>Team Members</label>
+                                <button type="button" class="btn btn-light ml-2"
+                                    onclick="change_member_cnt(false);">-</button>
+                                <span type="button" id="memb_cnt_span" class="btn btn-light"
+                                    style="background: #fff; cursor: default;">0</span>
+                                <button type="button" class="btn btn-light"
+                                    onclick="change_member_cnt(true);">+</button>
+                            </div>
 
-                        <div id="member1" class="d-none justify-content-around">
-                            <input type="text" class="form-control col-6" id="memb1_name_txt" placeholder="Team Member 2"
-                                autocomplete="name">
-                            <input type="number" class="form-control col-6" id="memb1_reg_txt" placeholder="Register No.">
-                        </div>
+                            <div id="member1" class="d-none justify-content-around">
+                                <input type="text" class="form-control col-6" id="memb1_name_txt"
+                                    placeholder="Team Member 2" autocomplete="name">
+                                <input type="number" class="form-control col-6" id="memb1_reg_txt"
+                                    placeholder="Register No.">
+                            </div>
 
-                        <div id="member2" class="d-none justify-content-around">
-                            <input type="text" class="form-control col-6" id="memb2_name_txt" placeholder="Team Member 3"
-                                autocomplete="name">
-                            <input type="number" class="form-control col-6"  id="memb2_reg_txt" placeholder="Register No.">
-                        </div>
+                            <div id="member2" class="d-none justify-content-around">
+                                <input type="text" class="form-control col-6" id="memb2_name_txt"
+                                    placeholder="Team Member 3" autocomplete="name">
+                                <input type="number" class="form-control col-6" id="memb2_reg_txt"
+                                    placeholder="Register No.">
+                            </div>
 
-                        <div id="error" style="color: var(--danger);font-weight: bold;display: none;" class="m-2">
-                            Please Fill all the required details
-                        </div>
+                            <div id="error" style="color: var(--danger);font-weight: bold;display: none;" class="m-2">
+                                Please Fill all the required details
+                            </div>
 
-                        <button type="button" class="form-control" id="submit-button" onclick="register_clk()">Register
-                            <i class="fa fa-refresh fa-spin ml-3" style="color:white; display: none;" id="loader"></i>
-                        </button>
+                            <button type="button" class="form-control" id="submit-button"
+                                onclick="register_clk()">Register
+                                <i class="fa fa-refresh fa-spin ml-3" style="color:white; display: none;"
+                                    id="loader"></i>
+                            </button>
                         </form>
                     </div>
                 </div>
