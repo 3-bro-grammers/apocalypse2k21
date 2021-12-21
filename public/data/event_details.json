@@ -169,7 +169,7 @@
             "organisers":[["Chandru A", "8124424244"], ["Kralisha A J", "6384383828"]],
             "img":"treasure",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "GENERAL QUIZ":{
