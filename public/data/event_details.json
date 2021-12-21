@@ -79,7 +79,7 @@
             "organisers":[["Mohamed Riyaz", "8838352401"], ["Madhumitha R", "9677672329"]],
             "img":"ipl",
             "result": false,
-            "closed": true
+            "closed": false
 
         },
         "MOVIE QUIZ":{
@@ -88,7 +88,7 @@
             "organisers":[["Mukil J A", "9498870535"], ["Bhuvaneaswari", "9487355768"]],
             "img":"movie",
             "result": false,
-            "closed": true
+            "closed": false
 
         },
         "MATH MAVERICK":{
