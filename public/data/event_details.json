@@ -79,7 +79,7 @@
             "organisers":[["Mohamed Riyaz", "8838352401"], ["Madhumitha R", "9677672329"]],
             "img":"ipl",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "MOVIE QUIZ":{
@@ -97,7 +97,7 @@
             "organisers":[["Arun Vikram", "7708455193"], ["Kalaiyarasi S", "9566303920"]],
             "img":"math",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "PHOTOGRAPHY":{
