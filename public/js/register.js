@@ -37,10 +37,18 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
         show_results(event_data[event_categ][event_name]["result"]);
     else
     {
-        document.getElementById("inputs").reset();
-        document.getElementById("inputs").style.display="block";
-        reg_title.innerHTML = "Register Now";
         reg_nav.innerHTML = "REGISTER";
+        if(!event_data[event_categ][event_name]["closed"])
+        {
+            document.getElementById("inputs").reset();
+            document.getElementById("inputs").style.display="block";
+            reg_title.innerHTML = "Register Now";
+            
+        }
+        else {
+            reg_closed.style.display="block";
+            reg_title.innerHTML = "Registrations Closed";
+        }
     }
         
 
@@ -193,4 +201,4 @@ function show_results(event_result) {
     
 }
 
-//[[["Krishna kumar","2018504620","Electronics and Communication"],["Sanjana","regno"],["Sanjana","regno"]],[["Name3","regno","Computer science"]]]
+//[[["Kumar","2018504620","Electronics and Communication"],["Sam","regno"],["Sanju","regno"]],[["Name3","regno","Computer science"]]]

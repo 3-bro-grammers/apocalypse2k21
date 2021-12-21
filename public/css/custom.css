@@ -973,3 +973,7 @@ button#submit-button:hover {
   font-weight: bold;
   color: red;
 }
+
+#reg_closed {
+  display: none;
+}
