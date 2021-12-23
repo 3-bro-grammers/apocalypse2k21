@@ -848,7 +848,7 @@ button#submit-button:hover {
   }
 
   .winner-div, .runner-div {
-    width: 70%;
+    width: 70% !important;
     margin: 10px;
   }
 
@@ -929,10 +929,10 @@ button#submit-button:hover {
 }
 
 #results_div {
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.winner-div, .runner-div {
+.runner-div, .winner-div {
   border: 1px solid;
   padding: 10px;
   border-radius: 5px;
@@ -941,11 +941,19 @@ button#submit-button:hover {
   margin-bottom: 20px;
 }
 
-.runner-div {
+.winner-div {
+  width : max-content;
+}
+
+#runner_div_main {
   background: lightcyan;
 }
 
-#winner_div_list>div, #runner_div_list>div {
+#runner2_div_main {
+  background: antiquewhite;
+}
+
+#winner_div_list>div, #runner_div_list>div, #runner2_div_list>div {
   border: 1px solid;
   padding: 4px;
   border-radius: 5px;
@@ -957,7 +965,11 @@ button#submit-button:hover {
   background-color: #FFD700 !important;
 }
 
-#winner_dept, #runner_dept {
+#runner2_div_list>div {
+  background-color: #f4a460 !important;
+}
+
+#winner_dept, #runner_dept, #runner2_dept {
   border: 1px solid;
   padding: 4px;
   border-radius: 5px;

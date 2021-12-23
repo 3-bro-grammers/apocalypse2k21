@@ -23,7 +23,7 @@ var memb_cnt = 0;
 var required = ["leader_name_txt", "leader_reg_txt", "email_txt", "phone_txt"];
 var img_name;
 
-fetch("data/event_details.json", {cache: 'no-cache'}).then((res) => res.json()).then((event_data) => {
+fetch("data/event_details.json", { cache: 'no-cache' }).then((res) => res.json()).then((event_data) => {
 
     img_name = event_data[event_categ][event_name]["img"];
     event_name_div.innerHTML = event_name;
@@ -165,6 +165,27 @@ function show_results(event_result) {
 
     winner_dept.innerHTML = dept[event_result[0][0][2]];
     runner_dept.innerHTML = dept[event_result[1][0][2]];
+    if (event_result[2]) {
+        runner2_dept.innerHTML = dept[event_result[2][0][2]];
+
+        var runner2_div_txt = "";
+
+
+        event_result[2].forEach((memb, i) => {
+
+            runner2_div_txt += `<div class="d-flex flex-column">
+                <div class="font-weight-bold">${memb[0]}</div>
+                <div>${memb[1]}</div>
+            </div>`
+        });
+
+        runner2_div_list.innerHTML = runner2_div_txt;
+
+
+    }else{
+        runner2_div_main.style.display = "none";
+    }
+
 
     var winner_div_txt = "";
     event_result[0].forEach((memb, i) => {
@@ -179,17 +200,17 @@ function show_results(event_result) {
 
     var runner_div_txt = "";
 
-    
-        event_result[1].forEach((memb, i) => {
 
-            runner_div_txt += `<div class="d-flex flex-column">
+    event_result[1].forEach((memb, i) => {
+
+        runner_div_txt += `<div class="d-flex flex-column">
                 <div class="font-weight-bold">${memb[0]}</div>
                 <div>${memb[1]}</div>
             </div>`
-        });
+    });
 
-        runner_div_list.innerHTML = runner_div_txt;
-     
+    runner_div_list.innerHTML = runner_div_txt;
+
     if (event_name == "MR AND MS TECHNOCRAT") {
         winner_title.innerHTML = "Mr. TECHNOCRAT"
         runner_title.innerHTML = "Ms. TECHNOCRAT"
@@ -199,16 +220,18 @@ function show_results(event_result) {
         runner_div_main.classList.add('winner-div')
 
         runner_icon.style.color = "gold";
+
+        runner2_div_main.style.display = "none";
     }
 
-    if(results_cont.offsetHeight > results_cont.offsetWidth){
+    if (results_cont.offsetHeight > results_cont.offsetWidth) {
         document.querySelector('.results-back').style.width = "auto";
         document.querySelector('.results-back').style.height = "100%";
-        
+
     }
 }
 
-setTimeout(()=>{
+setTimeout(() => {
     document.querySelector('.results-back').style.top = "100%";
 }, 10000)
 

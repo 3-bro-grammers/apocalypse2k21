@@ -96,7 +96,7 @@
             "long_desc":"The event that really counts !!!",
             "organisers":[["Arun Vikram", "7708455193"], ["Kalaiyarasi S", "9566303920"]],
             "img":"math",
-            "result": [[["Pranaav Jothi M","2019504561","Electronics and Communication"]],[["Harinandini N","2019504526","Electronics and Communication"], ["Kavyapriya V K","2019504537"], ["Sangamithra S","2019504576"]]],
+            "result": [[["Pranaav Jothi M","2019504561","Electronics and Communication"]],[["Harinandini N","2019504526","Electronics and Communication"], ["Kavyapriya V K","2019504537"], ["Sangamithra S","2019504576"]], [["Manoj Kumar B","2019504546","Electronics and Communication"], ["Srivatsan M","2019504591"], ["Gurubharan K","2019504524"]]],
             "closed": true
 
         },
@@ -123,7 +123,7 @@
             "long_desc":"The Participants are asked to dub the muted video with accurate words, slang, emotion and style!!",
             "organisers":[["Manoj Kumar M", "6383772047"], ["Dharani K", "6379020906"]],
             "img":"voice",
-            "result": [[["Ragavi A","2019501039","Aeronautical Engineering"]],[["Barath S","2020504520","Electronics and Communication"]]],
+            "result": [[["Ragavi A","2019501039","Aeronautical Engineering"]],[["Barath S","2020504520","Electronics and Communication"]], [["Thusiyanth K","2021504555","Electronics and Communication"]]],
             "closed": true
 
         },
