@@ -26,6 +26,13 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
         document.getElementById(event_categ + "_cont_div").innerHTML = categ_inner;
     }
 
+    if(event_data["non_tech_events"]["MR AND MS TECHNOCRAT"]["result"]){
+        document.querySelector("#mega-event button").innerHTML = "View Results";
+        document.querySelector("#mega-event button").classList.add('res_dec')
+    }
+    
+    
+
     document.getElementById(event_name).click();
 
 });

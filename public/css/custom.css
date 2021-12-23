@@ -938,6 +938,7 @@ button#submit-button:hover {
   border-radius: 5px;
   min-width: 45%;
   background: lightyellow;
+  margin-bottom: 20px;
 }
 
 .runner-div {
@@ -952,8 +953,8 @@ button#submit-button:hover {
   background-color: silver;
 }
 
-#winner_div_list>div {
-  background-color: #FFD700;
+#winner_div_list>div, .winner_div_list>div {
+  background-color: #FFD700 !important;
 }
 
 #winner_dept, #runner_dept {
@@ -976,4 +977,24 @@ button#submit-button:hover {
 
 #reg_closed {
   display: none;
+}
+
+.results-back {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: auto;
+  transform: translateX(-50%);
+  left: 50%;
+  transition: all 5s;
+  top: 0%;
+}
+
+#results_cont {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-width: 1px 0;
+  border-style: solid;
+
 }
