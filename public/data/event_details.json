@@ -123,7 +123,7 @@
             "long_desc":"The Participants are asked to dub the muted video with accurate words, slang, emotion and style!!",
             "organisers":[["Manoj Kumar M", "6383772047"], ["Dharani K", "6379020906"]],
             "img":"voice",
-            "result": false,
+            "result": [[["Ragavi A","2019501039","Aeronautical Engineering"]],[["Barath S","2020504520","Electronics and Communication"]]],
             "closed": true
 
         },
