@@ -69,7 +69,7 @@
             "long_desc":"Hey Folks!!!<br><br>This is an interesting and fun-filled non technical event & it's all about connecting the pictures to find the answer out of it.",
             "organisers":[["Senapathi S", "6383357713"], ["Bagavathi Dharshini R", "9585957495"]],
             "img":"connections",
-            "result": false,
+            "result": [[["Ranjith V","2019504570","Electronics and Communication"],["Elavarasan P","2019504022"],["Raakesh Kumar C","2019504566"]],[["Kiruthika S","2021504018","Electronics and Communication"], ["Arthi C","2021504505"], ["Keerthana K A","2021504017"]]],
             "closed": true
 
         },
