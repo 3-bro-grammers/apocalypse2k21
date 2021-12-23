@@ -6,7 +6,7 @@
             "organisers":[["Vishnuvardhan", "9566076990"], ["Sri Sandhya", "6382596690"]],
             "img":"pros-cons",
             "result": false,
-            "closed": false
+            "closed": true
         },
         "ELECTROTRIX":{
             "short_desc":"Electronic Circuits",
@@ -14,7 +14,7 @@
             "organisers":[["Saravanan V", "9384154069"], ["Madhumitha D", "9841433232"]],
             "img":"electrotrix",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "CODE MANTRA":{
@@ -41,7 +41,7 @@
             "organisers":[["Prakash Murugan N", "8428187506"], ["Kowsalya B U", "7598244760"]],
             "img":"signals",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "BIG-O":{
@@ -50,7 +50,7 @@
             "organisers":[["Mohamed Harish", "6383240985"], ["Selvamathi T", "6369089646"]],
             "img":"bigo",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "PROJECTINA":{
@@ -59,7 +59,7 @@
             "organisers":[["Santhosh", "6379982870"], ["Sowmika", "9344460167"]],
             "img":"projectina",
             "result": false,
-            "closed": false
+            "closed": true
 
         }
     },
@@ -79,7 +79,7 @@
             "organisers":[["Mohamed Riyaz", "8838352401"], ["Madhumitha R", "9677672329"]],
             "img":"ipl",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "MOVIE QUIZ":{
@@ -88,7 +88,7 @@
             "organisers":[["Mukil J A", "9498870535"], ["Bhuvaneaswari", "9487355768"]],
             "img":"movie",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "MATH MAVERICK":{
@@ -97,7 +97,7 @@
             "organisers":[["Arun Vikram", "7708455193"], ["Kalaiyarasi S", "9566303920"]],
             "img":"math",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "PHOTOGRAPHY":{
@@ -106,7 +106,7 @@
             "organisers":[["Chiranjeevi Saravanan", "9600349209"], ["Sowmiya", "9444171304"]],
             "img":"photography",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "MEME CONTEST":{
@@ -115,7 +115,7 @@
             "organisers":[["Vignesh N", "9944775518"], ["Visalini", "7339027909"]],
             "img":"meme",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "VOICE OVER":{
@@ -124,7 +124,7 @@
             "organisers":[["Manoj Kumar M", "6383772047"], ["Dharani K", "6379020906"]],
             "img":"voice",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "MOVIE REVIEW":{
@@ -133,7 +133,7 @@
             "organisers":[["Naren S K", "9677384564"], ["Divyapriya", "9994307475"]],
             "img":"movie_review",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "HOW STUFF WORKS":{
@@ -151,7 +151,7 @@
             "organisers":[["Keethivasan K", "6382929681"], ["Monigaa N", "6383650053"]],
             "img":"fandom",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "CASE CHALLENGE":{
@@ -160,7 +160,7 @@
             "organisers":[["Vishnuvardhan D", "9566076990"], ["Sai Jayashree S", "8144011469"]],
             "img":"case_study",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "TREASURE HUNT":{
@@ -178,7 +178,7 @@
             "organisers":[["Gokul Krishna U", "9087683166"], ["Sivasri A", "6383990832"]],
             "img":"quiz",
             "result": false,
-            "closed": false
+            "closed": true
 
         },
         "MR AND MS TECHNOCRAT":{
@@ -187,7 +187,7 @@
             "organisers":[["Duke Daffin", "7397566385"], ["Mohana Priyadharshini", "9159610285"]],
             "img":"mega",
             "result": false,
-            "closed": false
+            "closed": true
         }
 
     },
