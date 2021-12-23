@@ -23,7 +23,7 @@ var memb_cnt = 0;
 var required = ["leader_name_txt", "leader_reg_txt", "email_txt", "phone_txt"];
 var img_name;
 
-fetch("data/event_details.json").then((res) => res.json()).then((event_data) => {
+fetch("data/event_details.json", {cache: 'no-cache'}).then((res) => res.json()).then((event_data) => {
 
     img_name = event_data[event_categ][event_name]["img"];
     event_name_div.innerHTML = event_name;
