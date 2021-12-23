@@ -929,7 +929,7 @@ button#submit-button:hover {
 }
 
 #results_div {
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .runner-div, .winner-div {
