@@ -1,4 +1,4 @@
-(function () {
+function count () {
   const second = 1000,
         minute = second * 60,
         hour = minute * 60,
@@ -27,7 +27,7 @@
           clearInterval(x);
         }
       }, 0)
-  }());
+  }
 
   function view_event(event_name){
     location.href = `events.html?event_name=${event_name}`;
