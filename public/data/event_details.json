@@ -13,7 +13,7 @@
             "long_desc":"Electrotrix tests your knowledge on the basic concepts of circuit theory and electronic circuits which can ultimately help you in designing any basic circuit. The first round is a MCQ based test followed by an interview.",
             "organisers":[["Saravanan V", "9384154069"], ["Madhumitha D", "9841433232"]],
             "img":"electrotrix",
-            "result": [[["NALINKUMAR S" ,2019504038, "ECE"]],[["SHRUTHI" ,2020504584,"ECE"]],[["MUHAMMED RUMAAN JAMSHED" ,2020504546,"ECE"]]],
+            "result": [[["NALINKUMAR S" ,2019504038, "ECE"]],[["SHRUTHI" ,2020504584,"ECE"],["MUHAMMED RUMAAN JAMSHED" ,2020504546,"ECE"]]],
             "closed": true
 
         },
@@ -96,7 +96,7 @@
             "long_desc":"The event that really counts !!!",
             "organisers":[["Arun Vikram", "7708455193"], ["Kalaiyarasi S", "9566303920"]],
             "img":"math",
-            "result": [[["Pranaav Jothi M","2019504561","ECE"]],[["Harinandini N","2019504526","ECE"], ["Kavyapriya V K","2019504537"], ["Sangamithra S","2019504576"]], [["Manoj Kumar B","2019504546","ECE"], ["Srivatsan M","2019504591"], ["Gurubharan K","2019504524"]]],
+            "result": [[["Pranaav Jothi M","2019504561","ECE"]],[["Harinandini N","2019504526","ECE"], ["Kavyapriya V K","2019504537"], ["Sangamithra S","2019504576"]]],
             "closed": true
 
         },
@@ -123,7 +123,7 @@
             "long_desc":"The Participants are asked to dub the muted video with accurate words, slang, emotion and style!!",
             "organisers":[["Manoj Kumar M", "6383772047"], ["Dharani K", "6379020906"]],
             "img":"voice",
-            "result": [[["Ragavi A","2019501039","AERO"]],[["Barath S","2020504520","ECE"]], [["Thusiyanth K","2021504555","ECE"]]],
+            "result": [[["Ragavi A","2019501039","AERO"]],[["Barath S","2020504520","ECE"]]],
             "closed": true
 
         },
@@ -132,7 +132,7 @@
             "long_desc":"Ever thought of becoming another blue sattai or panda!!<br><br>Here's the chance to reveal the movie reviewer side of yours!!<br><br>Note:<br><ul><li>Movie name will be give on the spot</li><li>Languages: Tamil, English, Malayalam</li></ul>",
             "organisers":[["Naren S K", "9677384564"], ["Divyapriya", "9994307475"]],
             "img":"movie_review",
-            "result": [[["ASHOK R S",2020504004,"ECE"]],[["NITIN R",2020504554,"ECE"]],[["MANOJ G",2020504015,"ECE"]]],
+            "result": [[["ASHOK R S",2020504004,"ECE"]],[["NITIN R",2020504554,"ECE"],["MANOJ G",2020504015,"ECE"]]],
             "closed": true
 
         },

@@ -162,7 +162,7 @@ function show_results(event_result) {
     reg_nav.innerHTML = "Results";
     reg_title.innerHTML = "Results";
     document.getElementById("results_cont").style.display = "block";
-    console.log(event_result);
+    //console.log(event_result);
     winner_dept.innerHTML = event_result[0][0][2];
     runner_dept.innerHTML = event_result[1][0][2];
     if (event_result[2]) {
