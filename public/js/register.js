@@ -162,11 +162,11 @@ function show_results(event_result) {
     reg_nav.innerHTML = "Results";
     reg_title.innerHTML = "Results";
     document.getElementById("results_cont").style.display = "block";
-
-    winner_dept.innerHTML = dept[event_result[0][0][2]];
-    runner_dept.innerHTML = dept[event_result[1][0][2]];
+    console.log(event_result);
+    winner_dept.innerHTML = event_result[0][0][2];
+    runner_dept.innerHTML = event_result[1][0][2];
     if (event_result[2]) {
-        runner2_dept.innerHTML = dept[event_result[2][0][2]];
+        runner2_dept.innerHTML = event_result[2][0][2];
 
         var runner2_div_txt = "";
 

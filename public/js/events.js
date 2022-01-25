@@ -13,12 +13,13 @@ fetch("data/event_details.json").then((res) => res.json()).then((event_data) => 
             let isresult = event_data[event_categ][tech_event]["result"];
             let innertext =  isresult ? "View Results" :  "REGISTER";
             let btn_class = isresult ? "res_dec":"";
+            let btn_display = event_categ == "workshops"? "none" : "block";
             categ_inner += `<div class="card m-3 event-card" style="width: 18rem;">
             <img src="images/events/${event_data[event_categ][tech_event]['img']}.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">${tech_event}</h5>
                     <p class="card-text">${event_data[event_categ][tech_event]["short_desc"]}</p>
-                    <button onclick="register_clk('${tech_event}','${event_categ}')" class="form-control ${btn_class}" id="submit-button">${innertext}</button>
+                    <button onclick="register_clk('${tech_event}','${event_categ}')" class="form-control ${btn_class}" id="submit-button" style = "display: ${btn_display}">${innertext}</button>
                 </div>
             </div>`
         }
